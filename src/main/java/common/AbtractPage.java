@@ -172,6 +172,7 @@ public class AbtractPage {
 			element.click();
 		}
 	}
+	///
 	public boolean isElementDisplayed(WebDriver driver,String locator) {
 		highlightElement(driver, locator);
 		return getElement(driver, locator).isDisplayed();
