@@ -304,7 +304,7 @@ public class AbtractPage {
 //	public void waitToAllElementVisible(WebDriver driver, String locator,String...values) {
 //		explicit = new WebDriverWait(driver, GlobalConsarts.LONG_TIMEOUT);
 //		explicit.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getXpath(locator)));
-//
+//jfksjkdf
 //	}
 	public void waitToElementInVisible(WebDriver driver,String locator) {
 		explicit= new WebDriverWait(driver, GlobalConsarts.LONG_TIMEOUT);
