@@ -1,33 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="false">
-<!-- 	<test name="RUN ON FIREFOX_UI">
-		<parameter name="browser" value="firefox_ui" />
-		<classes>
-			<class
-				name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser" />
-		</classes>
-	</test>
-	<test name="RUN ON CHROME_UI">
-		<parameter name="browser" value="chrome_ui" />
-		<classes>
-			<class
-				name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser" />
-		</classes>
-	</test>
-	<test name="RUN ON FIREFOX_HEADLESS">
-		<parameter name="browser" value="firefox_headless" />
-		<classes>
-			<class
-				name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser" />
-		</classes>
-	</test>
-	<test name="RUN ON CHROME_HEADLESS">
-		<parameter name="browser" value="chrome_headless" />
-		<classes>
-			<class
-				name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser" />
-		</classes>
-	</test> -->
+
 	<listeners>
 		<listener class-name="commons.MethodListener" />
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
@@ -35,24 +8,13 @@
 			class-name="org.uncommons.reportng.JUnitXMLReporter" />
 		<listener class-name="reportConfig.ExtentReportListener" />
 	</listeners>
-	<test name="RUN ON FIREFOX_UI">
+	<test name="RUN ON CHROME_UI">
 		<parameter name="browser" value="chrome_ui" />
-		<parameter name="url" value="https://demo.nopcommerce.com" />
+		<parameter name="url" value="http://demo.guru99.com/v4/" />
 		<classes>
-			<class name="com.nopcommerce.commons.Common_01_Register" />
-			<class name="common.AbtractPage" />
+			<class name="com.bankguru.commons.Common_01_Login_Page" />
 		</classes>
-		<packages>
-			<package name="com.nopcommerce.commons" />
-			<package name="com.nopcommerce.users" />
-		</packages>
 
 	</test>
-<!-- 	<test name="RUN ON EDGE_CHROMIUM">
-		<parameter name="browser" value="edge_chromium" />
-		<classes>
-			<class
-				name="com.nopcommerce.users.Level_08_Register_Login_Dynamic_Locator_Rest_Parameter" />
-		</classes>
-	</test> -->
+
 </suite> 

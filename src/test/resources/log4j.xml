@@ -35,7 +35,7 @@
 		</layout>
 	</appender>
 
-	<category name="com.nopcommerce.admin">
+	<category name="com.bankguru.commons">
 		<priority value="all" />
 		<appender-ref ref="console" />
 		<appender-ref ref="logfile" />
