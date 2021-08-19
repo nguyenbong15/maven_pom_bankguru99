@@ -28,12 +28,22 @@ public class CommonLoginPagePO extends AbtractPage{
 	}
 
 	public String getTextUserId() {
-		waitToElementVisible(driver, CommonLoginPageUI.USER_ID_TEXT);	
-		return getTextElement(driver, CommonLoginPageUI.USER_ID_TEXT);
+		waitToElementVisible(driver, CommonLoginPageUI.TEXT_USER_ID);	
+		return getTextElement(driver, CommonLoginPageUI.TEXT_USER_ID);
 	}
 
 	public String getTextPassword() {
-		waitToElementVisible(driver, CommonLoginPageUI.PASSWORD_TEXT);	
-		return getTextElement(driver, CommonLoginPageUI.PASSWORD_TEXT);
+		waitToElementVisible(driver, CommonLoginPageUI.TEXT_PASSWORD);	
+		return getTextElement(driver, CommonLoginPageUI.TEXT_PASSWORD);
+	}
+
+	public UserManagerPagePO loginToSystem(String userid, String password) {
+		waitToElementVisible(driver, CommonLoginPageUI.USER_ID_TEXTBOX);
+		senkeyToElement(driver,  CommonLoginPageUI.USER_ID_TEXTBOX, userid);
+		waitToElementVisible(driver, CommonLoginPageUI.PASSWORD_TEXTBOX);
+		senkeyToElement(driver,  CommonLoginPageUI.PASSWORD_TEXTBOX, password);
+		waitToElementClickable(driver, CommonLoginPageUI.LOGIN_BUTTON);
+		clickToElement(driver,  CommonLoginPageUI.LOGIN_BUTTON);
+		return PageGenerator. getManagerPage(driver);
 	}
 }

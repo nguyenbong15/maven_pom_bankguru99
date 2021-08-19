@@ -5,12 +5,17 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import pageObjectUser.PageGenerator;
+import pageObjectUser.UserNewAccountPagePO;
+import pageUIUser.AbtractPageUI;
 public class AbtractPage {
 ///
 	public void openUrl(WebDriver driver, String url) {
@@ -107,6 +112,13 @@ public class AbtractPage {
 		element.clear();
 		sleepMiliSecond(500);
 		element.sendKeys(values);
+	}
+	public void senkeyToElement(WebDriver driver,String locator,Keys key) {
+		highlightElement(driver, locator);	
+		element=getElement(driver, locator);
+		element.clear();
+		sleepMiliSecond(500);
+		element.sendKeys(key);
 	}
 	public String getTextElement(WebDriver driver,String locator) {
 		highlightElement(driver, locator);
@@ -279,14 +291,14 @@ public class AbtractPage {
 		return false;
 	}
 	public void highlightElement(WebDriver driver, String locator) {
-		js = (JavascriptExecutor) driver;
-		element = getElement(driver, locator);
-		String originalStyle = element.getAttribute("style");
-
-		js.executeScript("arguments[0].setAttribute(arguments[1],arguments[2])", element, "style",
-				"border: 4px solid red; border-style: dashed;");
-		sleepMiliSecond(500);
-		js.executeScript("arguments[0].setAttribute(arguments[1],arguments[2])", element, "style", originalStyle);
+//		js = (JavascriptExecutor) driver;
+//		element = getElement(driver, locator);
+//		String originalStyle = element.getAttribute("style");
+//
+//		js.executeScript("arguments[0].setAttribute(arguments[1],arguments[2])", element, "style",
+//				"border: 4px solid red; border-style: dashed;");
+//		sleepMiliSecond(500);
+//		js.executeScript("arguments[0].setAttribute(arguments[1],arguments[2])", element, "style", originalStyle);
 
 	}
 	public void waitToElementClickable(WebDriver driver,String locator) {
@@ -338,6 +350,19 @@ public class AbtractPage {
 			e.printStackTrace();
 		}
 	}
+	public UserNewAccountPagePO openNewAccountPage(WebDriver driver) {
+		waitToElementClickable(driver, AbtractPageUI.NEW_ACCOUNT_LINK);
+		clickToElement(driver, AbtractPageUI.NEW_ACCOUNT_LINK);
+		return PageGenerator.getNewAccountPage(driver);
+	}
+	public UserNewAccountPagePO openDeleteAccountPage(WebDriver driver) {
+		waitToElementClickable(driver, AbtractPageUI.DELETE_ACCOUNT_LINK);
+		clickToElement(driver, AbtractPageUI.DELETE_ACCOUNT_LINK);
+		return PageGenerator.getNewAccountPage(driver);
+	}
+	
+	
+	
 	private WebDriverWait explicit;
 	private JavascriptExecutor js;
 	private WebElement element;

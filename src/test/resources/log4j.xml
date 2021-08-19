@@ -43,7 +43,7 @@
 		<appender-ref ref="testng" />
 	</category>
 
-	<category name="com.nopcommerce.users">
+	<category name="com.bankguru.users">
 		<priority value="all" />
 		<appender-ref ref="console" />
 		<appender-ref ref="logfile" />

@@ -1,5 +1,6 @@
 package commons;
 
+import java.util.Collections;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -7,59 +8,91 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.Assert;
 import org.testng.Reporter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class AbtractTest {
-	WebDriver driver;
+	private WebDriver driver;
 	protected final Log log;
-
-	protected AbtractTest() {
-		log = LogFactory.getLog(getClass());
+	
+	protected  AbtractTest() {
+		log=LogFactory.getLog(getClass());
 	}
-
-	protected WebDriver getBrowerName(String browerName) {
-		if (browerName.equals("firefox_ui")) {
+ 	protected WebDriver getBrowserName(String browser) {
+		
+		if (browser.equals("firefox_ui")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
-		} else if (browerName.equals("chrome_ui")) {
+		} else if (browser.equals("chrome_ui")) {
+			ChromeOptions options = new ChromeOptions();
+			options.setExperimentalOption("useAutomationExtension", false);
+			options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
-		} else if (browerName.equals("edge_ui")) {
+			driver = new ChromeDriver(options);
+		} else if (browser.equals("firefox_headless")) {
+			WebDriverManager.firefoxdriver().setup();
+			FirefoxOptions options = new FirefoxOptions();
+			options.setHeadless(true);
+			driver = new FirefoxDriver(options);
+		} else if (browser.equals("chrome_headless")) {
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("headless");
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver(options);
+		} else if (browser.equals("edge_chromium")) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
+		} else {
+			throw new RuntimeException("Pleasse input browser name!!!");
 		}
 		driver.manage().timeouts().implicitlyWait(30L, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
+		
 		return driver;
 	}
+	protected WebDriver getBrowserName(String browser,String url) {
+		
+	if (browser.equals("firefox_ui")) {
+		WebDriverManager.firefoxdriver().setup();
+		driver = new FirefoxDriver();
+	} else if (browser.equals("chrome_ui")) {
+		ChromeOptions options = new ChromeOptions();
+		options.setExperimentalOption("useAutomationExtension", false);
+		options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver(options);
+	} else if (browser.equals("firefox_headless")) {
 
-	protected WebDriver getBrowerName(String browerName, String url) {
-		if (browerName.equals("firefox_ui")) {
-			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
-		} else if (browerName.equals("chrome_ui")) {
-			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
-		} else if (browerName.equals("edge_ui")) {
-			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
-		}
-		driver.manage().timeouts().implicitlyWait(30L, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		driver.get(url);
-		return driver;
+		WebDriverManager.firefoxdriver().setup();
+		FirefoxOptions options = new FirefoxOptions();
+		options.setHeadless(true);
+		driver = new FirefoxDriver(options);
+	} else if (browser.equals("chrome_headless")) {
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("headless");
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver(options);
+	} else if (browser.equals("edge_chromium")) {
+		WebDriverManager.edgedriver().setup();
+		driver = new EdgeDriver();
+	} else {
+		throw new RuntimeException("Pleasse input browser name!!!");
 	}
-
+	driver.manage().timeouts().implicitlyWait(30L, TimeUnit.SECONDS);
+	driver.manage().window().maximize();
+	driver.get(url);
+	return driver;
+	}
 	protected int getRandomNumber() {
 		Random rd = new Random();
 		return rd.nextInt(99999);
 	}
-
 	private boolean checkTrue(boolean condition) {
 		boolean pass = true;
 		try {
@@ -121,7 +154,6 @@ public class AbtractTest {
 	protected boolean verifyEquals(Object actual, Object expected) {
 		return checkEquals(actual, expected);
 	}
-
 	protected void closeBrowserAndDriver(WebDriver driver) {
 		try {
 			// Get ra tÃªn cá»§a OS vÃ  convert qua chá»¯ thÆ°á»�ng
@@ -134,7 +166,7 @@ public class AbtractTest {
 				driver.manage().deleteAllCookies();
 				driver.quit();
 			}
-
+			
 			// Quit driver executable file in Task Manager
 			if (driver.toString().toLowerCase().contains("chrome")) {
 				if (osName.toLowerCase().contains("mac")) {
@@ -168,4 +200,8 @@ public class AbtractTest {
 			log.info(e.getMessage());
 		}
 	}
-}
+	public WebDriver getDriver() {
+		
+		return driver;
+	}
+	}
