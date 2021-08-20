@@ -15,7 +15,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pageObjectUser.PageGenerator;
 import pageObjectUser.UserNewAccountPagePO;
+import pageObjectUser.UserNewCustomerPagePO;
 import pageUIUser.AbtractPageUI;
+import pageUIUser.UserNewAcountPageUI;
 public class AbtractPage {
 ///
 	public void openUrl(WebDriver driver, String url) {
@@ -360,7 +362,12 @@ public class AbtractPage {
 		clickToElement(driver, AbtractPageUI.DELETE_ACCOUNT_LINK);
 		return PageGenerator.getNewAccountPage(driver);
 	}
-	
+	public UserNewCustomerPagePO openNewCustomerPage(WebDriver driver) {
+		waitToElementClickable(driver, AbtractPageUI.NEW_CUSTOMER_LINK);
+		clickToElement(driver, AbtractPageUI.NEW_CUSTOMER_LINK);
+		return PageGenerator.getNewCustomerPage(driver);
+	}
+
 	
 	
 	private WebDriverWait explicit;

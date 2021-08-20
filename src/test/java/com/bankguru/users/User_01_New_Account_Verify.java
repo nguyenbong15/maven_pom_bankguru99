@@ -6,8 +6,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.bankguru.commons.Common_01_Login_Page;
-
 import commons.AbtractTest;
 import pageObjectUser.CommonLoginPagePO;
 import pageObjectUser.PageGenerator;

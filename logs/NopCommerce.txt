@@ -1,0 +1,52 @@
+2021-08-20 14:55:30,629 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-01: open new customer page
+2021-08-20 14:55:31,187 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-02: input to Customer Name with empty data
+2021-08-20 14:55:31,886 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-03: press key tab
+2021-08-20 14:55:33,073 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-04: verify error message 'Customer name must not be blank' displayed
+2021-08-20 14:55:33,179 INFO  com.bankguru.users.User_02_New_Customer_01_Verify  -------------------------- PASSED -------------------------- 
+2021-08-20 14:55:33,397 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-01: input to Customer Name with number character data
+2021-08-20 14:55:34,086 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-02: verify error message 'Numbers are not allowed' displayed
+2021-08-20 14:55:34,139 INFO  com.bankguru.users.User_02_New_Customer_01_Verify  -------------------------- PASSED -------------------------- 
+2021-08-20 14:55:34,149 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-01: input to Customer Name with special character data
+2021-08-20 14:55:34,808 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-02: verify error message 'Special characters are not allowed' displayed
+2021-08-20 14:55:34,868 INFO  com.bankguru.users.User_02_New_Customer_01_Verify  -------------------------- PASSED -------------------------- 
+2021-08-20 14:55:34,875 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-01: input to Customer Name with First space character data
+2021-08-20 14:55:35,518 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-02: verify error message 'First character can not have space' displayed
+2021-08-20 14:55:35,591 INFO  com.bankguru.users.User_02_New_Customer_01_Verify  -------------------------- PASSED -------------------------- 
+2021-08-20 14:55:35,599 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-01: input to Address textbox with empty data
+2021-08-20 14:55:36,279 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-02: press key tab
+2021-08-20 14:55:37,478 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-03: verify error message 'Address Field must not be blank' displayed
+2021-08-20 14:55:37,562 INFO  com.bankguru.users.User_02_New_Customer_01_Verify  -------------------------- PASSED -------------------------- 
+2021-08-20 14:55:37,581 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-01: input to Address textbox first character is space
+2021-08-20 14:55:38,226 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-02: verify error message 'First character can not have space' displayed
+2021-08-20 14:55:38,282 INFO  com.bankguru.users.User_02_New_Customer_01_Verify  -------------------------- PASSED -------------------------- 
+2021-08-20 14:55:38,289 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-01: input to Address textbox special character
+2021-08-20 14:55:38,987 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-02: verify error message 'Special characters are not allowed
+2021-08-20 14:55:39,035 INFO  com.bankguru.users.User_02_New_Customer_01_Verify  -------------------------- PASSED -------------------------- 
+2021-08-20 14:55:39,042 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-01: input to city textbox with empty data
+2021-08-20 14:55:39,765 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-02: press key tab
+2021-08-20 14:55:40,997 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-03: verify error message 'City Field must not be blank' displayed
+2021-08-20 14:55:41,108 INFO  com.bankguru.users.User_02_New_Customer_01_Verify  -------------------------- PASSED -------------------------- 
+2021-08-20 14:55:41,116 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-01: input to city textbox first character is space
+2021-08-20 14:55:41,814 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-02: verify error message 'First character can not have space
+2021-08-20 14:55:41,911 INFO  com.bankguru.users.User_02_New_Customer_01_Verify  -------------------------- PASSED -------------------------- 
+2021-08-20 14:55:41,918 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-01: input to city textbox special character
+2021-08-20 14:55:42,596 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-02: verify error message 'Special characters are not allowed
+2021-08-20 14:55:42,660 INFO  com.bankguru.users.User_02_New_Customer_01_Verify  -------------------------- PASSED -------------------------- 
+2021-08-20 14:55:42,666 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-01: input to city textbox with have number character
+2021-08-20 14:55:43,323 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-02: verify error message 'Special characters are not allowed
+2021-08-20 14:55:43,376 INFO  com.bankguru.users.User_02_New_Customer_01_Verify  -------------------------- FAILED -------------------------- 
+2021-08-20 14:55:43,384 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-01: input to state textbox with empty data
+2021-08-20 14:55:44,065 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-02: press key Tab 
+2021-08-20 14:55:44,725 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-03: verify error message 'State must not be blank' displayed 
+2021-08-20 14:55:44,835 INFO  com.bankguru.users.User_02_New_Customer_01_Verify  -------------------------- PASSED -------------------------- 
+2021-08-20 14:55:44,841 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-01: input to state textbox with number data
+2021-08-20 14:55:45,554 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-03: verify error message 'Numbers are not allowed' displayed 
+2021-08-20 14:55:45,614 INFO  com.bankguru.users.User_02_New_Customer_01_Verify  -------------------------- PASSED -------------------------- 
+2021-08-20 14:55:45,621 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-01: input to state textbox with special character
+2021-08-20 14:55:46,318 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-03: verify error message 'Special characters are not allowed' displayed 
+2021-08-20 14:55:46,365 INFO  com.bankguru.users.User_02_New_Customer_01_Verify  -------------------------- PASSED -------------------------- 
+2021-08-20 14:55:46,372 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-01: input to state textbox with first character is space
+2021-08-20 14:55:47,045 INFO  com.bankguru.users.User_02_New_Customer_01_Verify Step-03: verify error message 'First character can not have space' displayed 
+2021-08-20 14:55:47,099 INFO  com.bankguru.users.User_02_New_Customer_01_Verify  -------------------------- PASSED -------------------------- 
+2021-08-20 14:55:47,104 INFO  com.bankguru.users.User_02_New_Customer_01_Verify OS name = windows 10
+2021-08-20 14:55:47,987 INFO  com.bankguru.users.User_02_New_Customer_01_Verify ---------- QUIT BROWSER SUCCESS ----------

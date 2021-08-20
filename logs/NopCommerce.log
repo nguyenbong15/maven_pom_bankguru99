@@ -1,0 +1,224 @@
+[INFO ] [2021-08-19 16:05:12,099] OS name = windows 10
+[INFO ] [2021-08-19 16:05:12,100] 
+[INFO ] [2021-08-19 16:07:11,118] Step-01: click to here visit link 
+[INFO ] [2021-08-19 16:07:11,449] OS name = windows 10
+[INFO ] [2021-08-19 16:07:12,679] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-19 16:08:08,579] Step-01: click to here visit link 
+[INFO ] [2021-08-19 16:08:11,024] Step-02: input to email textbox 
+[INFO ] [2021-08-19 16:08:12,405] Step-03: click to submit button 
+[INFO ] [2021-08-19 16:08:14,056] Step-04: get text userid  
+[INFO ] [2021-08-19 16:08:14,743] Step-05: get text password 
+[INFO ] [2021-08-19 16:08:15,720] OS name = windows 10
+[INFO ] [2021-08-19 16:08:16,993] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-19 16:09:43,441] Step-01: click to here visit link 
+[INFO ] [2021-08-19 16:09:45,447] Step-02: input to email textbox 
+[INFO ] [2021-08-19 16:09:46,866] Step-03: click to submit button 
+[INFO ] [2021-08-19 16:09:48,575] Step-04: get text userid  
+[INFO ] [2021-08-19 16:09:49,251] Step-05: get text password 
+[INFO ] [2021-08-19 16:09:50,214] OS name = windows 10
+[INFO ] [2021-08-19 16:09:51,562] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-19 16:09:55,159] OS name = windows 10
+[INFO ] [2021-08-19 16:09:56,041] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-19 17:08:05,089] Step-01: click to here visit link 
+[INFO ] [2021-08-19 17:08:07,600] Step-02: input to email textbox 
+[INFO ] [2021-08-19 17:08:09,089] Step-03: click to submit button 
+[INFO ] [2021-08-19 17:08:10,766] Step-04: get text userid  
+[INFO ] [2021-08-19 17:08:11,449] Step-05: get text password 
+[INFO ] [2021-08-19 17:08:12,437] OS name = windows 10
+[INFO ] [2021-08-19 17:08:13,976] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-19 17:08:23,479] OS name = windows 10
+[INFO ] [2021-08-19 17:08:24,955] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-19 17:10:47,773] Step-01: open new account page
+[INFO ] [2021-08-19 17:10:48,827] Step-02: input to customer id with empty data
+[INFO ] [2021-08-19 17:10:50,072] Step-03: press key tab
+[INFO ] [2021-08-19 17:10:51,377] Step-04: verify error message 'Customer ID is required' displayed
+[INFO ] [2021-08-19 17:10:52,083]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-19 17:10:52,274] Step-01: input to customer id with empty data
+[INFO ] [2021-08-19 17:10:53,577] Step-02: press key tab
+[INFO ] [2021-08-19 17:10:54,832] Step-03: verify error message'Characters are not allowed'displayed
+[INFO ] [2021-08-19 17:10:55,483]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-19 17:10:55,500] Step-01: input to customer id with empty data
+[INFO ] [2021-08-19 17:10:56,806] Step-02: press key tab
+[INFO ] [2021-08-19 17:10:58,098] Step-03: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-19 17:10:58,748]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-19 17:10:58,760] OS name = windows 10
+[INFO ] [2021-08-19 17:10:59,663] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-19 17:12:20,850] Step-01: open new account page
+[INFO ] [2021-08-19 17:12:21,335] Step-02: input to customer id with empty data
+[INFO ] [2021-08-19 17:12:22,078] Step-03: press key tab
+[INFO ] [2021-08-19 17:12:22,761] Step-04: verify error message 'Customer ID is required' displayed
+[INFO ] [2021-08-19 17:12:22,834]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-19 17:12:23,060] Step-01: input to customer id with empty data
+[INFO ] [2021-08-19 17:12:23,766] Step-02: press key tab
+[INFO ] [2021-08-19 17:12:24,412] Step-03: verify error message'Characters are not allowed'displayed
+[INFO ] [2021-08-19 17:12:24,470]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-19 17:12:24,493] Step-01: input to customer id with empty data
+[INFO ] [2021-08-19 17:12:25,143] Step-02: press key tab
+[INFO ] [2021-08-19 17:12:25,786] Step-03: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-19 17:12:25,882]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-19 17:12:25,887] OS name = windows 10
+[INFO ] [2021-08-19 17:12:27,362] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-19 17:14:50,107] Step-01: open new account page
+[INFO ] [2021-08-19 17:14:50,605] Step-02: input to customer id with empty data
+[INFO ] [2021-08-19 17:14:51,297] Step-03: press key tab
+[INFO ] [2021-08-19 17:14:52,453] Step-04: verify error message 'Customer ID is required' displayed
+[INFO ] [2021-08-19 17:14:52,561]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-19 17:14:52,788] Step-01: input to customer id with empty data
+[INFO ] [2021-08-19 17:14:53,475] Step-02: press key tab
+[INFO ] [2021-08-19 17:14:53,476] Step-03: verify error message'Characters are not allowed'displayed
+[INFO ] [2021-08-19 17:14:53,538]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-19 17:14:53,547] Step-01: input to customer id with empty data
+[INFO ] [2021-08-19 17:14:54,206] Step-02: press key tab
+[INFO ] [2021-08-19 17:14:54,206] Step-03: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-19 17:14:54,284]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-19 17:14:54,290] OS name = windows 10
+[INFO ] [2021-08-19 17:14:55,715] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-19 17:34:36,151] Step-01: open new account page
+[INFO ] [2021-08-19 17:34:36,695] Step-02: input to customer id with empty data
+[INFO ] [2021-08-19 17:34:37,401] Step-03: press key tab
+[INFO ] [2021-08-19 17:34:38,548] Step-04: verify error message 'Customer ID is required' displayed
+[INFO ] [2021-08-19 17:34:38,663]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-19 17:34:38,947] Step-01: input to customer id with character data
+[INFO ] [2021-08-19 17:34:39,788] Step-02: verify error message'Characters are not allowed'displayed
+[INFO ] [2021-08-19 17:34:39,895]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-19 17:34:39,905] Step-01: input to customer id with special character data
+[INFO ] [2021-08-19 17:34:40,618] Step-03: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-19 17:34:40,697]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-19 17:34:40,704] Step-01: input to customer id with have blank space data
+[INFO ] [2021-08-19 17:34:41,380] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-19 17:34:41,472]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-19 17:34:41,481] Step-01: input to Initial deposit with first character space data
+[INFO ] [2021-08-19 17:34:42,210] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-19 17:34:42,269]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-19 17:34:42,278] Step-01: input to Initial deposit with empty data
+[INFO ] [2021-08-19 17:34:42,995] Step-02: press key tab
+[INFO ] [2021-08-19 17:34:44,174] Step-03: verify error message 'Initial Deposit must not be blank
+[INFO ] [2021-08-19 17:34:44,262]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-19 17:34:44,270] Step-01: input to Initial deposit with character data
+[INFO ] [2021-08-19 17:34:44,961] Step-02: verify error message 'Characters are not allowed
+[INFO ] [2021-08-19 17:34:45,021]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-19 17:34:45,028] Step-01: input to Initial deposit with special character data
+[INFO ] [2021-08-19 17:34:45,702] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-19 17:34:45,795]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-19 17:34:45,803] Step-01: input to Initial deposit with have blank space data
+[INFO ] [2021-08-19 17:34:46,488] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-19 17:34:46,538]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-19 17:34:46,545] Step-01: input to Initial deposit with first character space data
+[INFO ] [2021-08-19 17:34:47,193] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-19 17:34:47,247]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-19 17:34:47,252] OS name = windows 10
+[INFO ] [2021-08-19 17:34:48,262] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-20 14:22:16,677] Step-01: open new customer page
+[INFO ] [2021-08-20 14:22:17,427] Step-02: input to Customer Name with empty data
+[INFO ] [2021-08-20 14:22:18,172] Step-03: press key tab
+[INFO ] [2021-08-20 14:22:19,364] Step-04: verify error message 'Customer name must not be blank' displayed
+[INFO ] [2021-08-20 14:22:19,465]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:22:19,700] Step-01: input to Customer Name with number character data
+[INFO ] [2021-08-20 14:22:20,391] Step-02: verify error message 'Numbers are not allowed' displayed
+[INFO ] [2021-08-20 14:22:20,488]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:22:20,518] Step-01: input to Customer Name with special character data
+[INFO ] [2021-08-20 14:22:21,218] Step-02: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-20 14:22:21,314]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:22:21,353] Step-01: input to Customer Name with First space character data
+[INFO ] [2021-08-20 14:22:22,002] Step-02: verify error message 'First character can not have space' displayed
+[INFO ] [2021-08-20 14:22:22,060]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:22:22,065] OS name = windows 10
+[INFO ] [2021-08-20 14:22:23,647] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-20 14:53:22,611] Step-01: open new customer page
+[INFO ] [2021-08-20 14:53:23,162] Step-02: input to Customer Name with empty data
+[INFO ] [2021-08-20 14:53:23,888] Step-03: press key tab
+[INFO ] [2021-08-20 14:53:25,094] Step-04: verify error message 'Customer name must not be blank' displayed
+[INFO ] [2021-08-20 14:53:25,182]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:53:25,441] Step-01: input to Customer Name with number character data
+[INFO ] [2021-08-20 14:53:26,118] Step-02: verify error message 'Numbers are not allowed' displayed
+[INFO ] [2021-08-20 14:53:26,182]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:53:26,217] Step-01: input to Customer Name with special character data
+[INFO ] [2021-08-20 14:53:26,899] Step-02: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-20 14:53:26,964]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:53:26,995] Step-01: input to Customer Name with First space character data
+[INFO ] [2021-08-20 14:53:27,646] Step-02: verify error message 'First character can not have space' displayed
+[INFO ] [2021-08-20 14:53:27,700]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:53:27,709] Step-01: input to Address textbox with empty data
+[INFO ] [2021-08-20 14:53:28,417] Step-02: press key tab
+[INFO ] [2021-08-20 14:53:29,662] Step-03: verify error message '
+[INFO ] [2021-08-20 14:53:29,764]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-20 14:53:29,776] Step-01: input to Address textbox first character is space
+[INFO ] [2021-08-20 14:53:30,428] Step-02: verify error message ' First character can not have space' displayed
+[INFO ] [2021-08-20 14:53:30,480]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-20 14:53:30,487] Step-01: input to Address textbox special character
+[INFO ] [2021-08-20 14:53:31,195] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-20 14:53:31,260]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:53:31,267] Step-01: input to city textbox with empty data
+[INFO ] [2021-08-20 14:53:32,017] Step-02: press key tab
+[INFO ] [2021-08-20 14:53:33,166] Step-03: verify error message 'City Field must not be blank'displayed
+[INFO ] [2021-08-20 14:53:33,295]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:53:33,304] Step-01: input to city textbox first character is space
+[INFO ] [2021-08-20 14:53:33,997] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-20 14:53:34,057]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:53:34,063] Step-01: input to state textbox with empty data
+[INFO ] [2021-08-20 14:53:34,763] Step-02: press key Tab 
+[INFO ] [2021-08-20 14:53:35,424] Step-03: verify error message 'State must not be blank' displayed 
+[INFO ] [2021-08-20 14:53:35,516]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-20 14:53:35,524] Step-01: input to state textbox with number data
+[INFO ] [2021-08-20 14:53:36,228] Step-03: verify error message 'Numbers are not allowed' displayed 
+[INFO ] [2021-08-20 14:53:36,289]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:53:36,316] Step-01: input to state textbox with special character
+[INFO ] [2021-08-20 14:53:36,996] Step-03: verify error message 'Special characters are not allowed' displayed 
+[INFO ] [2021-08-20 14:53:37,052]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:53:37,078] Step-01: input to state textbox with first character is space
+[INFO ] [2021-08-20 14:53:37,759] Step-03: verify error message 'First character can not have space' displayed 
+[INFO ] [2021-08-20 14:53:37,816]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:53:37,821] OS name = windows 10
+[INFO ] [2021-08-20 14:53:38,713] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-20 14:55:30,629] Step-01: open new customer page
+[INFO ] [2021-08-20 14:55:31,187] Step-02: input to Customer Name with empty data
+[INFO ] [2021-08-20 14:55:31,886] Step-03: press key tab
+[INFO ] [2021-08-20 14:55:33,073] Step-04: verify error message 'Customer name must not be blank' displayed
+[INFO ] [2021-08-20 14:55:33,179]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:55:33,397] Step-01: input to Customer Name with number character data
+[INFO ] [2021-08-20 14:55:34,086] Step-02: verify error message 'Numbers are not allowed' displayed
+[INFO ] [2021-08-20 14:55:34,139]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:55:34,149] Step-01: input to Customer Name with special character data
+[INFO ] [2021-08-20 14:55:34,808] Step-02: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-20 14:55:34,868]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:55:34,875] Step-01: input to Customer Name with First space character data
+[INFO ] [2021-08-20 14:55:35,518] Step-02: verify error message 'First character can not have space' displayed
+[INFO ] [2021-08-20 14:55:35,591]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:55:35,599] Step-01: input to Address textbox with empty data
+[INFO ] [2021-08-20 14:55:36,279] Step-02: press key tab
+[INFO ] [2021-08-20 14:55:37,478] Step-03: verify error message 'Address Field must not be blank' displayed
+[INFO ] [2021-08-20 14:55:37,562]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:55:37,581] Step-01: input to Address textbox first character is space
+[INFO ] [2021-08-20 14:55:38,226] Step-02: verify error message 'First character can not have space' displayed
+[INFO ] [2021-08-20 14:55:38,282]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:55:38,289] Step-01: input to Address textbox special character
+[INFO ] [2021-08-20 14:55:38,987] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-20 14:55:39,035]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:55:39,042] Step-01: input to city textbox with empty data
+[INFO ] [2021-08-20 14:55:39,765] Step-02: press key tab
+[INFO ] [2021-08-20 14:55:40,997] Step-03: verify error message 'City Field must not be blank' displayed
+[INFO ] [2021-08-20 14:55:41,108]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:55:41,116] Step-01: input to city textbox first character is space
+[INFO ] [2021-08-20 14:55:41,814] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-20 14:55:41,911]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:55:41,918] Step-01: input to city textbox special character
+[INFO ] [2021-08-20 14:55:42,596] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-20 14:55:42,660]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:55:42,666] Step-01: input to city textbox with have number character
+[INFO ] [2021-08-20 14:55:43,323] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-20 14:55:43,376]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-20 14:55:43,384] Step-01: input to state textbox with empty data
+[INFO ] [2021-08-20 14:55:44,065] Step-02: press key Tab 
+[INFO ] [2021-08-20 14:55:44,725] Step-03: verify error message 'State must not be blank' displayed 
+[INFO ] [2021-08-20 14:55:44,835]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:55:44,841] Step-01: input to state textbox with number data
+[INFO ] [2021-08-20 14:55:45,554] Step-03: verify error message 'Numbers are not allowed' displayed 
+[INFO ] [2021-08-20 14:55:45,614]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:55:45,621] Step-01: input to state textbox with special character
+[INFO ] [2021-08-20 14:55:46,318] Step-03: verify error message 'Special characters are not allowed' displayed 
+[INFO ] [2021-08-20 14:55:46,365]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:55:46,372] Step-01: input to state textbox with first character is space
+[INFO ] [2021-08-20 14:55:47,045] Step-03: verify error message 'First character can not have space' displayed 
+[INFO ] [2021-08-20 14:55:47,099]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 14:55:47,104] OS name = windows 10
+[INFO ] [2021-08-20 14:55:47,987] ---------- QUIT BROWSER SUCCESS ----------

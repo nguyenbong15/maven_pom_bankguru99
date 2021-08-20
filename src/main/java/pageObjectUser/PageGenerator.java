@@ -13,4 +13,7 @@ public class PageGenerator {
 	public static UserNewAccountPagePO getNewAccountPage(WebDriver driver) {
 		return new UserNewAccountPagePO(driver);
 	}
+	public static UserNewCustomerPagePO getNewCustomerPage(WebDriver driver) {
+		return new UserNewCustomerPagePO(driver);
+	}
 }
