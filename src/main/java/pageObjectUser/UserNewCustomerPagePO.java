@@ -4,7 +4,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 import commons.AbtractPage;
-import pageUIUser.UserNewAcountPageUI;
 import pageUIUser.UserNewCustomerPageUI;
 
 public class UserNewCustomerPagePO extends AbtractPage{
@@ -64,6 +63,38 @@ public class UserNewCustomerPagePO extends AbtractPage{
 	public String getErrorMessageOfState() {
 		waitToElementVisible(driver, UserNewCustomerPageUI.ERROR_MESSAGE_OF_STATE_VERIFY);
 		return getTextElement(driver, UserNewCustomerPageUI.ERROR_MESSAGE_OF_STATE_VERIFY);
+	}
+
+	public void inputToPinTextbox(String pin) {
+		waitToElementVisible(driver, UserNewCustomerPageUI.PIN_TEXTBOX);
+		senkeyToElement(driver, UserNewCustomerPageUI.PIN_TEXTBOX, pin);
+	}
+	public String getErrorMessageOfPin() {
+		waitToElementVisible(driver, UserNewCustomerPageUI.ERROR_MESSAGE_OF_PIN_VERIFY);
+		return getTextElement(driver, UserNewCustomerPageUI.ERROR_MESSAGE_OF_PIN_VERIFY);
+	}
+	public void inputToMobilePhoneTextbox(String phoneNumber) {
+		waitToElementVisible(driver, UserNewCustomerPageUI.MOBILE_PHONE_TEXTBOX);
+		senkeyToElement(driver, UserNewCustomerPageUI.MOBILE_PHONE_TEXTBOX, phoneNumber);
+	}
+	
+	public String getErrorMessageOfMobilePhone() {
+		waitToElementVisible(driver, UserNewCustomerPageUI.ERROR_MESSAGE_OF_MOBILE_PHONE_VERIFY);
+		return getTextElement(driver, UserNewCustomerPageUI.ERROR_MESSAGE_OF_MOBILE_PHONE_VERIFY);
+	}
+	public void inputToEmailTextbox(String email) {
+		waitToElementVisible(driver, UserNewCustomerPageUI.EMAIL_TEXTBOX);
+		senkeyToElement(driver, UserNewCustomerPageUI.EMAIL_TEXTBOX, email);
+	}
+
+	public String getErrorMessageOfEmail() {
+		waitToElementVisible(driver, UserNewCustomerPageUI.ERROR_MESSAGE_OF_EMAIL_VERIFY);
+		return getTextElement(driver, UserNewCustomerPageUI.ERROR_MESSAGE_OF_EMAIL_VERIFY);
+	}
+
+	public boolean isErrorMessagedisplayed() {
+		waitToElementInvisible(driver, UserNewCustomerPageUI.ERROR_MESSAGE_OF_EMAIL_VERIFY);
+		return isElementDisplayed(driver, UserNewCustomerPageUI.ERROR_MESSAGE_OF_EMAIL_VERIFY);
 	}
 	
 }
