@@ -96,5 +96,31 @@ public class UserNewCustomerPagePO extends AbtractPage{
 		waitToElementInvisible(driver, UserNewCustomerPageUI.ERROR_MESSAGE_OF_EMAIL_VERIFY);
 		return isElementDisplayed(driver, UserNewCustomerPageUI.ERROR_MESSAGE_OF_EMAIL_VERIFY);
 	}
+
+	public void clickToSubmitbutton() {
+		waitToElementClickable(driver, UserNewCustomerPageUI.SUBMIT_BUTTON);
+		clickToElement(driver, UserNewCustomerPageUI.SUBMIT_BUTTON);
+	}
+
+	public void inputToDateOfBirth(String dateOfBirth) {
+		waitToElementVisible(driver, UserNewCustomerPageUI.DATE_OF_BIRTH_TEXTBOX);
+		senkeyToElement(driver, UserNewCustomerPageUI.DATE_OF_BIRTH_TEXTBOX, dateOfBirth);
+	}
+
+	public void clickToGenderMaleRadio() {
+			waitToElementClickable(driver, UserNewCustomerPageUI.MALE_RADIO);
+			clickToElement(driver, UserNewCustomerPageUI.MALE_RADIO);
+	}
+
+	public void inputToPasswordTextbox(String password) {
+		waitToElementVisible(driver, UserNewCustomerPageUI.PASSWORD_TEXTBOX);
+		senkeyToElement(driver, UserNewCustomerPageUI.PASSWORD_TEXTBOX, password);
+	}
+
+	public String getCustomerId() {
+		waitToElementVisible(driver, UserNewCustomerPageUI.CUSTOMER_ID_TEXT);
+		return getTextElement(driver, UserNewCustomerPageUI.CUSTOMER_ID_TEXT);
+	
+	}
 	
 }

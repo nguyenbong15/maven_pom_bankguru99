@@ -222,3 +222,476 @@
 [INFO ] [2021-08-20 14:55:47,099]  -------------------------- PASSED -------------------------- 
 [INFO ] [2021-08-20 14:55:47,104] OS name = windows 10
 [INFO ] [2021-08-20 14:55:47,987] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-20 15:44:52,067] Step-01: open new customer page
+[INFO ] [2021-08-20 15:44:52,652] Step-02: input to Customer Name with empty data
+[INFO ] [2021-08-20 15:44:53,374] Step-03: press key tab
+[INFO ] [2021-08-20 15:44:54,561] Step-04: verify error message 'Customer name must not be blank' displayed
+[INFO ] [2021-08-20 15:44:54,650]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:44:54,889] Step-01: input to Customer Name with number character data
+[INFO ] [2021-08-20 15:44:55,606] Step-02: verify error message 'Numbers are not allowed' displayed
+[INFO ] [2021-08-20 15:44:55,669]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:44:55,680] Step-01: input to Customer Name with special character data
+[INFO ] [2021-08-20 15:44:56,344] Step-02: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-20 15:44:56,405]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:44:56,413] Step-01: input to Customer Name with First space character data
+[INFO ] [2021-08-20 15:44:57,049] Step-02: verify error message 'First character can not have space' displayed
+[INFO ] [2021-08-20 15:44:57,106]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:44:57,113] Step-01: input to Address textbox with empty data
+[INFO ] [2021-08-20 15:44:57,785] Step-02: press key tab
+[INFO ] [2021-08-20 15:44:59,000] Step-03: verify error message 'Address Field must not be blank' displayed
+[INFO ] [2021-08-20 15:44:59,101]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:44:59,109] Step-01: input to Address textbox first character is space
+[INFO ] [2021-08-20 15:44:59,742] Step-02: verify error message 'First character can not have space' displayed
+[INFO ] [2021-08-20 15:44:59,796]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:44:59,803] Step-01: input to Address textbox special character
+[INFO ] [2021-08-20 15:45:00,503] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-20 15:45:00,561]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:45:00,568] Step-01: input to city textbox with empty data
+[INFO ] [2021-08-20 15:45:01,290] Step-02: press key tab
+[INFO ] [2021-08-20 15:45:02,514] Step-03: verify error message 'City Field must not be blank' displayed
+[INFO ] [2021-08-20 15:45:02,638]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:45:02,646] Step-01: input to city textbox first character is space
+[INFO ] [2021-08-20 15:45:03,331] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-20 15:45:03,394]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:45:03,401] Step-01: input to city textbox special character
+[INFO ] [2021-08-20 15:45:04,106] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-20 15:45:04,161]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:45:04,168] Step-01: input to city textbox with have number character
+[INFO ] [2021-08-20 15:45:04,845] Step-02: verify error message 'Numbers are not allowed
+[INFO ] [2021-08-20 15:45:04,899]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:45:04,905] Step-01: input to state textbox with empty data
+[INFO ] [2021-08-20 15:45:05,623] Step-02: press key Tab 
+[INFO ] [2021-08-20 15:45:06,276] Step-03: verify error message 'State must not be blank' displayed 
+[INFO ] [2021-08-20 15:45:06,371]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:45:06,377] Step-01: input to state textbox with number data
+[INFO ] [2021-08-20 15:45:07,061] Step-03: verify error message 'Numbers are not allowed' displayed 
+[INFO ] [2021-08-20 15:45:07,129]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:45:07,136] Step-01: input to state textbox with special character
+[INFO ] [2021-08-20 15:45:07,792] Step-03: verify error message 'Special characters are not allowed' displayed 
+[INFO ] [2021-08-20 15:45:07,882]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:45:07,888] Step-01: input to state textbox with first character is space
+[INFO ] [2021-08-20 15:45:08,567] Step-03: verify error message 'First character can not have space' displayed 
+[INFO ] [2021-08-20 15:45:08,627]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:45:08,632] OS name = windows 10
+[INFO ] [2021-08-20 15:45:09,646] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-20 15:45:42,323] Step-01: open new customer page
+[INFO ] [2021-08-20 15:45:42,836] Step-02: input to pin texbox with empty data
+[INFO ] [2021-08-20 15:45:43,541] Step-03: press key tab
+[INFO ] [2021-08-20 15:45:44,762] Step-04: verify error message 'PIN Code must not be blank' displayed
+[INFO ] [2021-08-20 15:45:44,850]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:45:45,103] Step-01: input to pin texbox with  number character data
+[INFO ] [2021-08-20 15:45:45,800] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-20 15:45:45,873]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:45:45,881] Step-01: input to pin texbox with  less 6 digital
+[INFO ] [2021-08-20 15:45:46,529] Step-02: verify error message 'PIN Code must have 6 Digits' displayed
+[INFO ] [2021-08-20 15:45:46,583]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:45:46,583] Step-01: input to pin with more 6 digital
+[INFO ] [2021-08-20 15:45:47,279] Step-02: verify error message 'PIN Code must have 6 Digits' displayed
+[INFO ] [2021-08-20 15:46:17,821] Step-01: input to pin texbox with  First space character data
+[INFO ] [2021-08-20 15:46:18,555] Step-02: verify error message 'First character can not have space' displayed
+[INFO ] [2021-08-20 15:46:18,637]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:46:18,647] Step-01: input to pin texbox with special character
+[INFO ] [2021-08-20 15:46:19,334] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-20 15:46:19,392]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-20 15:46:19,401] Step-01: input to city textbox with special character
+[INFO ] [2021-08-20 15:46:20,093] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-20 15:46:20,189]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-20 15:46:20,204] Step-01: input to mobile phone textbox with empty data
+[INFO ] [2021-08-20 15:46:20,922] Step-02: verify error message 'Mobile no must not be blank
+[INFO ] [2021-08-20 15:46:29,474]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:46:29,481] Step-01: input to mobile phone textbox with first character as space
+[INFO ] [2021-08-20 15:46:30,286] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-20 15:46:30,386]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:46:30,394] Step-01: input to mobile phone textbox with have space
+[INFO ] [2021-08-20 15:46:31,157] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-20 15:46:31,206]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-20 15:46:31,213] Step-01: input to mobile phone textbox with special character
+[INFO ] [2021-08-20 15:46:31,857] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-20 15:46:31,921]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-20 15:46:31,928] Step-01: input to email textbox with empty data
+[INFO ] [2021-08-20 15:46:32,605] Step-02: verify error message 'Email-ID must not be blank
+[INFO ] [2021-08-20 15:46:53,299]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:46:53,306] Step-01: input to email textbox with first character as space
+[INFO ] [2021-08-20 15:46:54,081] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-20 15:46:54,185]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:46:54,193] Step-01: input to email textbox with have space
+[INFO ] [2021-08-20 15:46:54,981] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-20 15:46:55,077]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-20 15:46:55,085] Step-01: input to email textbox with have space
+[INFO ] [2021-08-20 15:46:55,818] Step-02: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-20 15:46:55,926]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:46:55,926] Step-01: input to email textbox with have space
+[INFO ] [2021-08-20 15:46:56,706] Step-02: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-20 15:46:56,801]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:46:56,801] Step-01: input to email textbox with have space
+[INFO ] [2021-08-20 15:46:57,568] Step-02: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-20 15:46:57,668]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:46:57,668] Step-01: input to email textbox with have space
+[INFO ] [2021-08-20 15:46:58,427] Step-02: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-20 15:46:58,545]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:46:58,546] Step-01: input to email textbox with have space
+[INFO ] [2021-08-20 15:46:59,345] Step-02: verify error message '
+[INFO ] [2021-08-20 15:47:29,821] OS name = windows 10
+[INFO ] [2021-08-20 15:47:30,846] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-20 15:53:28,209] Step-01: open new customer page
+[INFO ] [2021-08-20 15:53:28,723] Step-02: input to pin texbox with empty data
+[INFO ] [2021-08-20 15:53:29,448] Step-03: press key tab
+[INFO ] [2021-08-20 15:53:30,662] Step-04: verify error message 'PIN Code must not be blank' displayed
+[INFO ] [2021-08-20 15:53:30,774]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:53:31,013] Step-01: input to pin texbox with  number character data
+[INFO ] [2021-08-20 15:53:31,693] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-20 15:53:31,750]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:53:31,759] Step-01: input to pin texbox with  less 6 digital
+[INFO ] [2021-08-20 15:53:32,399] Step-02: verify error message 'PIN Code must have 6 Digits' displayed
+[INFO ] [2021-08-20 15:53:32,455]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:53:32,455] Step-03: input to pin with more 6 digital
+[INFO ] [2021-08-20 15:53:33,117] Step-04: verify error message 'PIN Code must have 6 Digits' displayed
+[INFO ] [2021-08-20 15:54:03,354] Step-01: input to pin texbox with  First space character data
+[INFO ] [2021-08-20 15:54:04,041] Step-02: verify error message 'First character can not have space' displayed
+[INFO ] [2021-08-20 15:54:04,143]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:54:04,152] Step-01: input to pin texbox with special character
+[INFO ] [2021-08-20 15:54:04,857] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-20 15:54:04,946]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:54:04,954] Step-01: input to city textbox with special character
+[INFO ] [2021-08-20 15:54:05,634] Step-02: verify error message 'Characters are not allowed
+[INFO ] [2021-08-20 15:54:05,687]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:54:05,694] Step-01: input to mobile phone textbox with empty data
+[INFO ] [2021-08-20 15:54:06,390] Step-02: verify error message 'Mobile no must not be blank
+[INFO ] [2021-08-20 15:54:36,860] Step-01: input to mobile phone textbox with first character as space
+[INFO ] [2021-08-20 15:54:37,511] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-20 15:54:37,608]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:54:37,625] Step-01: input to mobile phone textbox with have space
+[INFO ] [2021-08-20 15:54:38,290] Step-02: verify error message 'Characters are not allowed
+[INFO ] [2021-08-20 15:54:38,344]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:54:38,351] Step-01: input to mobile phone textbox with special character
+[INFO ] [2021-08-20 15:54:39,030] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-20 15:54:39,088]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:54:39,097] Step-01: input to email textbox with empty data
+[INFO ] [2021-08-20 15:54:39,816] Step-02: verify error message 'Email-ID must not be blank
+[INFO ] [2021-08-20 15:55:10,092] Step-01: input to email textbox with first character as space
+[INFO ] [2021-08-20 15:55:10,750] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-20 15:55:10,835]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:55:10,841] Step-01: input to email textbox with have space
+[INFO ] [2021-08-20 15:55:11,532] Step-02: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-20 15:55:11,595]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:55:11,601] Step-01: input to email textbox with have space
+[INFO ] [2021-08-20 15:55:12,264] Step-02: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-20 15:55:12,327]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:55:12,327] Step-01: input to email textbox with have space
+[INFO ] [2021-08-20 15:55:13,069] Step-02: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-20 15:55:13,140]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:55:13,140] Step-01: input to email textbox with have space
+[INFO ] [2021-08-20 15:55:13,843] Step-02: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-20 15:55:13,903]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:55:13,903] Step-01: input to email textbox with have space
+[INFO ] [2021-08-20 15:55:14,606] Step-02: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-20 15:55:14,662]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:55:14,662] Step-01: input to email textbox with have space
+[INFO ] [2021-08-20 15:55:15,373] Step-02: verify error message not displayed
+[INFO ] [2021-08-20 15:55:15,464]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:55:15,469] OS name = windows 10
+[INFO ] [2021-08-20 15:55:16,396] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-20 15:59:04,868] Step-01: open new customer page
+[INFO ] [2021-08-20 15:59:05,409] Step-02: input to pin texbox with empty data
+[INFO ] [2021-08-20 15:59:06,136] Step-03: press key tab
+[INFO ] [2021-08-20 15:59:07,386] Step-04: verify error message 'PIN Code must not be blank' displayed
+[INFO ] [2021-08-20 15:59:07,475]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:07,702] Step-01: input to pin texbox with  number character data
+[INFO ] [2021-08-20 15:59:08,436] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-20 15:59:08,507]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:08,515] Step-01: input to pin texbox with  less 6 digital
+[INFO ] [2021-08-20 15:59:09,186] Step-02: verify error message 'PIN Code must have 6 Digits' displayed
+[INFO ] [2021-08-20 15:59:09,264]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:09,271] Step-01: input to pin texbox with  First space character data
+[INFO ] [2021-08-20 15:59:09,931] Step-02: verify error message 'First character can not have space' displayed
+[INFO ] [2021-08-20 15:59:09,988]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:09,996] Step-01: input to pin texbox with special character
+[INFO ] [2021-08-20 15:59:10,654] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-20 15:59:10,717]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:10,724] Step-01: input to city textbox with special character
+[INFO ] [2021-08-20 15:59:11,365] Step-02: verify error message 'Characters are not allowed
+[INFO ] [2021-08-20 15:59:11,428]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:11,434] Step-01: input to mobile phone textbox with empty data
+[INFO ] [2021-08-20 15:59:12,115] Step-02: press key tab
+[INFO ] [2021-08-20 15:59:13,268] Step-03: verify error message 'Mobile no must not be blank
+[INFO ] [2021-08-20 15:59:13,351]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:13,361] Step-01: input to mobile phone textbox with first character as space
+[INFO ] [2021-08-20 15:59:14,043] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-20 15:59:14,093]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:14,101] Step-01: input to mobile phone textbox with have space
+[INFO ] [2021-08-20 15:59:14,804] Step-02: verify error message 'Characters are not allowed
+[INFO ] [2021-08-20 15:59:14,853]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:14,859] Step-01: input to mobile phone textbox with special character
+[INFO ] [2021-08-20 15:59:15,547] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-20 15:59:15,601]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:15,608] Step-01: input to email textbox with empty data
+[INFO ] [2021-08-20 15:59:16,290] Step-02: press key tab
+[INFO ] [2021-08-20 15:59:17,488] Step-03: verify error message 'Email-ID must not be blank
+[INFO ] [2021-08-20 15:59:17,627]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:17,640] Step-01: input to email textbox with first character as space
+[INFO ] [2021-08-20 15:59:18,333] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-20 15:59:18,386]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:18,392] Step-01: input to email textbox with have space
+[INFO ] [2021-08-20 15:59:19,096] Step-02: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-20 15:59:19,155]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:19,162] Step-01: input to email textbox with have space
+[INFO ] [2021-08-20 15:59:19,834] Step-02: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-20 15:59:19,888]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:19,888] Step-03: input to email textbox with have space
+[INFO ] [2021-08-20 15:59:20,587] Step-04: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-20 15:59:20,636]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:20,636] Step-05: input to email textbox with have space
+[INFO ] [2021-08-20 15:59:21,345] Step-06: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-20 15:59:21,397]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:21,397] Step-07: input to email textbox with have space
+[INFO ] [2021-08-20 15:59:22,057] Step-08: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-20 15:59:22,110]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:22,111] Step-09: input to email textbox with have space
+[INFO ] [2021-08-20 15:59:22,845] Step-10: verify error message not displayed
+[INFO ] [2021-08-20 15:59:22,974]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-20 15:59:22,983] OS name = windows 10
+[INFO ] [2021-08-20 15:59:23,847] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-22 15:29:49,282] Step-01: open edit customer
+[INFO ] [2021-08-22 15:29:50,061] Step-02: input to customer id with empty data
+[INFO ] [2021-08-22 15:29:50,802] Step-03: press tab key
+[INFO ] [2021-08-22 15:30:21,088] Step-01: input to customer id have character data
+[INFO ] [2021-08-22 15:30:21,819] Step-02: verify error meassage 'Characters are not allowed
+[INFO ] [2021-08-22 15:30:21,922]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:21,933] Step-01: input to customer id with have special chracter
+[INFO ] [2021-08-22 15:30:22,624] Step-02: verify error meassage 'Special characters are not allowed
+[INFO ] [2021-08-22 15:30:22,704]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:22,713] Step-01: input to customer id with valid data
+[INFO ] [2021-08-22 15:30:23,369] Step-02: click to submit button
+[INFO ] [2021-08-22 15:30:24,201] Step-01: input to Address textbox with empty data
+[INFO ] [2021-08-22 15:30:24,908] Step-02: press key tab
+[INFO ] [2021-08-22 15:30:25,064] Step-01: input to city textbox with empty data
+[INFO ] [2021-08-22 15:30:25,769] Step-02: press key tab
+[INFO ] [2021-08-22 15:30:25,858] Step-01: input to city textbox special character
+[INFO ] [2021-08-22 15:30:26,568] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-22 15:30:26,686]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:26,692] Step-01: input to city textbox with have number character
+[INFO ] [2021-08-22 15:30:27,387] Step-02: verify error message 'Numbers are not allowed
+[INFO ] [2021-08-22 15:30:27,446]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:27,453] Step-01: input to state textbox with empty data
+[INFO ] [2021-08-22 15:30:28,164] Step-02: press key Tab 
+[INFO ] [2021-08-22 15:30:28,818] Step-03: verify error message 'State must not be blank' displayed 
+[INFO ] [2021-08-22 15:30:28,900]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:28,908] Step-01: input to state textbox with number data
+[INFO ] [2021-08-22 15:30:29,579] Step-03: verify error message 'Numbers are not allowed' displayed 
+[INFO ] [2021-08-22 15:30:29,641]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:29,648] Step-01: input to state textbox with special character
+[INFO ] [2021-08-22 15:30:30,345] Step-03: verify error message 'Special characters are not allowed' displayed 
+[INFO ] [2021-08-22 15:30:30,405]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:30,414] Step-01: input to pin texbox with empty data
+[INFO ] [2021-08-22 15:30:31,131] Step-02: press key tab
+[INFO ] [2021-08-22 15:30:31,216] Step-01: input to pin texbox with  number character data
+[INFO ] [2021-08-22 15:30:31,894] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-22 15:30:31,970]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:31,977] Step-01: input to pin texbox with  less 6 digital
+[INFO ] [2021-08-22 15:30:32,646] Step-02: verify error message 'PIN Code must have 6 Digits' displayed
+[INFO ] [2021-08-22 15:30:32,698]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:32,704] Step-01: input to pin texbox with special character
+[INFO ] [2021-08-22 15:30:33,358] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-22 15:30:33,410]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:33,416] Step-01: input to mobile phone textbox with empty data
+[INFO ] [2021-08-22 15:30:34,121] Step-02: press key tab
+[INFO ] [2021-08-22 15:30:34,231] Step-01: input to mobile phone textbox with special character
+[INFO ] [2021-08-22 15:30:34,879] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-22 15:30:34,958]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:34,965] Step-01: input to email textbox with empty data
+[INFO ] [2021-08-22 15:30:35,713] Step-02: press key tab
+[INFO ] [2021-08-22 15:30:35,809] Step-01: input to email textbox with have space
+[INFO ] [2021-08-22 15:30:36,480] Step-02: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-22 15:30:36,579]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:36,579] Step-03: input to email textbox with have space
+[INFO ] [2021-08-22 15:30:37,230] Step-04: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-22 15:30:37,295]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:37,296] Step-05: input to email textbox with have space
+[INFO ] [2021-08-22 15:30:37,965] Step-06: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-22 15:30:38,030]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:38,031] Step-07: input to email textbox with have space
+[INFO ] [2021-08-22 15:30:38,700] Step-08: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-22 15:30:38,764]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:38,764] Step-09: input to email textbox with have space
+[INFO ] [2021-08-22 15:30:39,471] Step-10: verify error message not displayed
+[INFO ] [2021-08-22 15:30:39,565]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:30:39,569] OS name = windows 10
+[INFO ] [2021-08-22 15:30:40,455] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-22 15:34:23,885] Step-01: open edit customer
+[INFO ] [2021-08-22 15:34:24,626] Step-02: input to customer id with empty data
+[INFO ] [2021-08-22 15:34:25,372] Step-03: press tab key
+[INFO ] [2021-08-22 15:34:26,545] Step-04: verify error meassage 'Customer ID is required' displayed
+[INFO ] [2021-08-22 15:34:26,652]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:26,919] Step-01: input to customer id have character data
+[INFO ] [2021-08-22 15:34:27,635] Step-02: verify error meassage 'Characters are not allowed
+[INFO ] [2021-08-22 15:34:27,724]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:27,736] Step-01: input to customer id with have special chracter
+[INFO ] [2021-08-22 15:34:28,405] Step-02: verify error meassage 'Special characters are not allowed
+[INFO ] [2021-08-22 15:34:28,465]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:28,472] Step-01: input to customer id with valid data
+[INFO ] [2021-08-22 15:34:29,130] Step-02: click to submit button
+[INFO ] [2021-08-22 15:34:29,963] Step-01: input to Address textbox with empty data
+[INFO ] [2021-08-22 15:34:30,693] Step-02: press key tab
+[INFO ] [2021-08-22 15:34:31,371] Step-03: verify error message ' Address Field must not be blank' displayed
+[INFO ] [2021-08-22 15:34:31,490]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-22 15:34:31,500] Step-01: input to city textbox with empty data
+[INFO ] [2021-08-22 15:34:32,192] Step-02: press key tab
+[INFO ] [2021-08-22 15:34:32,852] Step-03: verify error message 'City Field must not be blank' displayed
+[INFO ] [2021-08-22 15:34:32,970]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:32,979] Step-01: input to city textbox special character
+[INFO ] [2021-08-22 15:34:33,743] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-22 15:34:33,831]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:33,840] Step-01: input to city textbox with have number character
+[INFO ] [2021-08-22 15:34:34,630] Step-02: verify error message 'Numbers are not allowed
+[INFO ] [2021-08-22 15:34:34,700]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:34,708] Step-01: input to state textbox with empty data
+[INFO ] [2021-08-22 15:34:35,436] Step-02: press key Tab 
+[INFO ] [2021-08-22 15:34:36,073] Step-03: verify error message 'State must not be blank' displayed 
+[INFO ] [2021-08-22 15:34:36,151]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:36,159] Step-01: input to state textbox with number data
+[INFO ] [2021-08-22 15:34:36,859] Step-03: verify error message 'Numbers are not allowed' displayed 
+[INFO ] [2021-08-22 15:34:36,919]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:36,926] Step-01: input to state textbox with special character
+[INFO ] [2021-08-22 15:34:37,602] Step-03: verify error message 'Special characters are not allowed' displayed 
+[INFO ] [2021-08-22 15:34:37,669]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:37,676] Step-01: input to pin texbox with empty data
+[INFO ] [2021-08-22 15:34:38,367] Step-02: press key tab
+[INFO ] [2021-08-22 15:34:39,009] Step-03: verify error message 'PIN Code must not be blank' displayed
+[INFO ] [2021-08-22 15:34:39,088]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:39,094] Step-01: input to pin texbox with  number character data
+[INFO ] [2021-08-22 15:34:39,801] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-22 15:34:39,858]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:39,866] Step-01: input to pin texbox with  less 6 digital
+[INFO ] [2021-08-22 15:34:40,541] Step-02: verify error message 'PIN Code must have 6 Digits' displayed
+[INFO ] [2021-08-22 15:34:40,595]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:40,600] Step-01: input to pin texbox with special character
+[INFO ] [2021-08-22 15:34:41,280] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-22 15:34:41,354]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:41,360] Step-01: input to mobile phone textbox with empty data
+[INFO ] [2021-08-22 15:34:42,109] Step-02: press key tab
+[INFO ] [2021-08-22 15:34:42,825] Step-03: verify error message 'Mobile no must not be blank
+[INFO ] [2021-08-22 15:34:42,909]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:42,925] Step-01: input to mobile phone textbox with special character
+[INFO ] [2021-08-22 15:34:43,603] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-22 15:34:43,664]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:43,671] Step-01: input to email textbox with empty data
+[INFO ] [2021-08-22 15:34:44,376] Step-02: press key tab
+[INFO ] [2021-08-22 15:34:45,098] Step-03: verify error message 'Email-ID must not be blank
+[INFO ] [2021-08-22 15:34:45,180]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:45,186] Step-01: input to email textbox with have space
+[INFO ] [2021-08-22 15:34:45,849] Step-02: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-22 15:34:45,907]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:45,908] Step-03: input to email textbox with have space
+[INFO ] [2021-08-22 15:34:46,610] Step-04: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-22 15:34:46,661]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:46,661] Step-05: input to email textbox with have space
+[INFO ] [2021-08-22 15:34:47,345] Step-06: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-22 15:34:47,405]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:47,406] Step-07: input to email textbox with have space
+[INFO ] [2021-08-22 15:34:48,104] Step-08: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-22 15:34:48,181]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:48,181] Step-09: input to email textbox with have space
+[INFO ] [2021-08-22 15:34:48,889] Step-10: verify error message not displayed
+[INFO ] [2021-08-22 15:34:48,979]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:34:48,983] OS name = windows 10
+[INFO ] [2021-08-22 15:34:49,892] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-22 15:49:16,197] Step-01: open new customer page
+[INFO ] [2021-08-22 15:49:16,745] Step-02: input to pin texbox with empty data
+[INFO ] [2021-08-22 15:49:17,475] Step-03: press key tab
+[INFO ] [2021-08-22 15:49:18,706] Step-04: verify error message 'PIN Code must not be blank' displayed
+[INFO ] [2021-08-22 15:49:18,832]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:19,184] Step-01: input to pin texbox with  number character data
+[INFO ] [2021-08-22 15:49:19,913] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-22 15:49:19,965]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:19,974] Step-01: input to pin texbox with  less 6 digital
+[INFO ] [2021-08-22 15:49:20,684] Step-02: verify error message 'PIN Code must have 6 Digits' displayed
+[INFO ] [2021-08-22 15:49:20,767]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:20,795] Step-01: input to pin texbox with  First space character data
+[INFO ] [2021-08-22 15:49:21,462] Step-02: verify error message 'First character can not have space' displayed
+[INFO ] [2021-08-22 15:49:21,577]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:21,585] Step-01: input to pin texbox with special character
+[INFO ] [2021-08-22 15:49:22,246] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-22 15:49:22,342]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:22,349] Step-01: input to city textbox with special character
+[INFO ] [2021-08-22 15:49:23,039] Step-02: verify error message 'Characters are not allowed
+[INFO ] [2021-08-22 15:49:23,099]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:23,104] Step-01: input to mobile phone textbox with empty data
+[INFO ] [2021-08-22 15:49:23,787] Step-02: press key tab
+[INFO ] [2021-08-22 15:49:24,994] Step-03: verify error message 'Mobile no must not be blank
+[INFO ] [2021-08-22 15:49:25,085]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:25,091] Step-01: input to mobile phone textbox with first character as space
+[INFO ] [2021-08-22 15:49:25,782] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-22 15:49:25,872]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:25,880] Step-01: input to mobile phone textbox with have space
+[INFO ] [2021-08-22 15:49:26,576] Step-02: verify error message 'Characters are not allowed
+[INFO ] [2021-08-22 15:49:26,630]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:26,637] Step-01: input to mobile phone textbox with special character
+[INFO ] [2021-08-22 15:49:27,297] Step-02: verify error message 'Special characters are not allowed
+[INFO ] [2021-08-22 15:49:27,365]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:27,372] Step-01: input to email textbox with empty data
+[INFO ] [2021-08-22 15:49:28,104] Step-02: press key tab
+[INFO ] [2021-08-22 15:49:29,326] Step-03: verify error message 'Email-ID must not be blank
+[INFO ] [2021-08-22 15:49:29,409]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:29,415] Step-01: input to email textbox with first character as space
+[INFO ] [2021-08-22 15:49:30,100] Step-02: verify error message 'First character can not have space
+[INFO ] [2021-08-22 15:49:30,151]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:30,157] Step-01: input to email textbox with have space
+[INFO ] [2021-08-22 15:49:30,873] Step-02: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-22 15:49:30,925]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:30,932] Step-01: input to email textbox with have space
+[INFO ] [2021-08-22 15:49:31,618] Step-02: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-22 15:49:31,671]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:31,672] Step-03: input to email textbox with have space
+[INFO ] [2021-08-22 15:49:32,365] Step-04: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-22 15:49:32,416]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:32,416] Step-05: input to email textbox with have space
+[INFO ] [2021-08-22 15:49:33,101] Step-06: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-22 15:49:33,162]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:33,162] Step-07: input to email textbox with have space
+[INFO ] [2021-08-22 15:49:33,868] Step-08: verify error message 'Email-ID is not valid
+[INFO ] [2021-08-22 15:49:33,924]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:33,924] Step-09: input to email textbox with have space
+[INFO ] [2021-08-22 15:49:34,663] Step-10: verify error message not displayed
+[INFO ] [2021-08-22 15:49:34,775]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:49:34,780] OS name = windows 10
+[INFO ] [2021-08-22 15:49:35,766] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-22 15:50:38,559] OS name = windows 10
+[INFO ] [2021-08-22 15:50:38,561] 
+[INFO ] [2021-08-22 15:52:22,865] Step-01: open new customer page
+[INFO ] [2021-08-22 15:52:23,628] Step-02: input to Customer Name with empty data
+[INFO ] [2021-08-22 15:52:24,325] Step-03: press key tab
+[INFO ] [2021-08-22 15:52:25,495] Step-04: verify error message 'Customer name must not be blank' displayed
+[INFO ] [2021-08-22 15:52:25,603]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-22 15:52:26,290] Step-01: input to Customer Name with number character data
+[INFO ] [2021-08-22 15:52:27,078] Step-02: verify error message 'Numbers are not allowed' displayed
+[INFO ] [2021-08-22 15:52:27,165]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-22 15:52:27,179] Step-01: input to Customer Name with special character data
+[INFO ] [2021-08-22 15:52:27,902] Step-02: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-22 15:52:27,953]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:52:27,962] Step-01: input to Customer Name with First space character data
+[INFO ] [2021-08-22 15:52:28,605] Step-02: verify error message 'First character can not have space' displayed
+[INFO ] [2021-08-22 15:52:28,661]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:52:28,668] Step-01: input to Customer Name with have blank space 
+[INFO ] [2021-08-22 15:52:29,347] Step-02: verify error message 'First character can not have space' displayed
+[INFO ] [2021-08-22 15:52:29,404]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:52:29,410] OS name = windows 10
+[INFO ] [2021-08-22 15:52:30,325] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-22 15:55:33,994] Step-01: open new customer page
+[INFO ] [2021-08-22 15:55:35,238] Step-02: input to Customer id with empty data
+[INFO ] [2021-08-22 15:55:35,932] Step-03: press key tab
+[INFO ] [2021-08-22 15:55:37,080] Step-04: verify error message 'Customer ID is required' displayed
+[INFO ] [2021-08-22 15:55:37,198]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:55:37,483] Step-01: input to Customer id with have character data
+[INFO ] [2021-08-22 15:55:38,225] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-22 15:55:38,283]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:55:38,292] Step-01: input to Customer id with special character data
+[INFO ] [2021-08-22 15:55:38,998] Step-02: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-22 15:55:39,069]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:55:39,077] Step-01: input to Customer id with First space character data
+[INFO ] [2021-08-22 15:55:39,754] Step-02: verify error message 'First character can not have space' displayed
+[INFO ] [2021-08-22 15:55:39,837]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:55:39,844] Step-01: input to Customer id with have blank space 
+[INFO ] [2021-08-22 15:55:40,503] Step-02: verify error message 'First character can not have space' displayed
+[INFO ] [2021-08-22 15:55:40,557]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-22 15:55:40,562] OS name = windows 10
+[INFO ] [2021-08-22 15:55:41,715] ---------- QUIT BROWSER SUCCESS ----------

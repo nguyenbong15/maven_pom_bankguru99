@@ -12,7 +12,7 @@ import pageObjectUser.PageGenerator;
 import pageObjectUser.UserManagerPagePO;
 import pageObjectUser.UserNewCustomerPagePO;
 
-public class User_02_New_Customer_02_Verify extends AbtractTest {
+public class User_03_New_Customer_02_Verify extends AbtractTest {
 	WebDriver driver;
     CommonLoginPagePO loginPage;
     UserNewCustomerPagePO newCustomer;

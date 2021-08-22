@@ -9,10 +9,10 @@
 	</listeners>
 	<test name="RUN ON CHROME_UI">
 		<parameter name="browser" value="chrome_ui" />
-		<parameter name="url" value="http://demo.guru99.com/v2/" />
+		<parameter name="url" value="http://demo.guru99.com/v4/" />
 		<classes>
 		<!-- 	<class name="com.bankguru.commons.Common_01_Login_Page" /> -->
-			<class name="com.bankguru.users.User_02_New_Customer_02_Verify" />
+			<class name="com.bankguru.users.User_05_Delete_Customer_Verify" />
 		</classes>
 
 	</test>

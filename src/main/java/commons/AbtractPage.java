@@ -14,6 +14,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pageObjectUser.PageGenerator;
+import pageObjectUser.UserDeleteCustomerPagePO;
+import pageObjectUser.UserEditCustomerPagePO;
 import pageObjectUser.UserNewAccountPagePO;
 import pageObjectUser.UserNewCustomerPagePO;
 import pageUIUser.AbtractPageUI;
@@ -366,6 +368,16 @@ public class AbtractPage {
 		waitToElementClickable(driver, AbtractPageUI.NEW_CUSTOMER_LINK);
 		clickToElement(driver, AbtractPageUI.NEW_CUSTOMER_LINK);
 		return PageGenerator.getNewCustomerPage(driver);
+	}
+	public UserEditCustomerPagePO openEditCustomerPage(WebDriver driver) {
+		waitToElementClickable(driver, AbtractPageUI.EDIT_CUSTOMER_LINK);
+		clickToElement(driver, AbtractPageUI.EDIT_CUSTOMER_LINK);
+		return PageGenerator.getEditCustomerPage(driver);
+	}
+	public UserDeleteCustomerPagePO openDeleteCustomerPage(WebDriver driver) {
+		waitToElementClickable(driver, AbtractPageUI.EDIT_CUSTOMER_LINK);
+		clickToElement(driver, AbtractPageUI.EDIT_CUSTOMER_LINK);
+		return PageGenerator.getDeleteCustomerPage(driver);
 	}
 
 	
