@@ -34,9 +34,26 @@ public class UserNewAccountPagePO extends AbtractPage{
 		senkeyToElement(driver, UserNewAcountPageUI.INITIAL_DEPOSIT_TEXTBOX, initialDeposit);
 	}
 
-	public Object getErrorMessageInitialDeposit() {
+	public String getErrorMessageInitialDeposit() {
 		waitToElementVisible(driver, UserNewAcountPageUI.ERROR_MESSAGE_OF_INITIAL_DEPOSIT_VERIFY);
 		return getTextElement(driver, UserNewAcountPageUI.ERROR_MESSAGE_OF_INITIAL_DEPOSIT_VERIFY);
+	}
+
+	
+
+	public void selecItemInAccountTypeDropDown(String itemValue) {
+	    waitToElementClickable(driver, UserNewAcountPageUI.ACCOUNT_TYPE_DROPDOWN);
+		selectItemInDropdown(driver, UserNewAcountPageUI.ACCOUNT_TYPE_DROPDOWN, itemValue);
+	}
+
+	public void clickToSubmitButton() {
+		waitToElementClickable(driver, UserNewAcountPageUI.SUBMIT_BUTTON);
+		clickToElement(driver,  UserNewAcountPageUI.SUBMIT_BUTTON);
+	}
+
+	public String getTextAccountID() {
+		waitToElementVisible(driver, UserNewAcountPageUI.TEXT_ACCOUNT_ID);
+		return getTextElement(driver, UserNewAcountPageUI.TEXT_ACCOUNT_ID);
 	}
 
 	

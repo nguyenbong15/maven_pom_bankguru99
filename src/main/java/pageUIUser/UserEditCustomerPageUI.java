@@ -1,6 +1,8 @@
 package pageUIUser;
 
 public class UserEditCustomerPageUI {
+	
+	
 	public static final String CUSTOMER_ID_TEXTBOX = "//input[@name='cusid']";
 	public static final String SUBMIT_BUTTON = "//input[@name='AccSubmit']";
 	public static final String ERROR_MESSAGE_OF_CUSTOMER_ID_VERIFY = "//input[@name='cusid']/following-sibling::label";
@@ -18,5 +20,4 @@ public class UserEditCustomerPageUI {
 	public static final String CITY_TEXTBOX = "//input[@name='city']";
 	public static final String ERROR_MESSAGE_OF_ADDRESS_VERIFY = "//textarea[@name='addr']/following-sibling::label";
 	public static final String ERROR_MESSAGE_OF_CITY_VERIFY = "//input[@name='city']/following-sibling::label";
-
 }

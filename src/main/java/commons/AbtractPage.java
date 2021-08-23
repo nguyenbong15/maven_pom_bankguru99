@@ -3,6 +3,7 @@ package commons;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -14,12 +15,13 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pageObjectUser.PageGenerator;
+import pageObjectUser.UserDeleteAccountPagePO;
 import pageObjectUser.UserDeleteCustomerPagePO;
+import pageObjectUser.UserEditAccountPagePO;
 import pageObjectUser.UserEditCustomerPagePO;
 import pageObjectUser.UserNewAccountPagePO;
 import pageObjectUser.UserNewCustomerPagePO;
 import pageUIUser.AbtractPageUI;
-import pageUIUser.UserNewAcountPageUI;
 public class AbtractPage {
 ///
 	public void openUrl(WebDriver driver, String url) {
@@ -359,10 +361,10 @@ public class AbtractPage {
 		clickToElement(driver, AbtractPageUI.NEW_ACCOUNT_LINK);
 		return PageGenerator.getNewAccountPage(driver);
 	}
-	public UserNewAccountPagePO openDeleteAccountPage(WebDriver driver) {
-		waitToElementClickable(driver, AbtractPageUI.DELETE_ACCOUNT_LINK);
-		clickToElement(driver, AbtractPageUI.DELETE_ACCOUNT_LINK);
-		return PageGenerator.getNewAccountPage(driver);
+	public UserEditAccountPagePO openEditAccountPage(WebDriver driver) {
+		waitToElementClickable(driver, AbtractPageUI.EDIT_ACCOUNT_LINK);
+		clickToElement(driver, AbtractPageUI.EDIT_ACCOUNT_LINK);
+		return PageGenerator.getEditAccountPage(driver);
 	}
 	public UserNewCustomerPagePO openNewCustomerPage(WebDriver driver) {
 		waitToElementClickable(driver, AbtractPageUI.NEW_CUSTOMER_LINK);
@@ -375,9 +377,14 @@ public class AbtractPage {
 		return PageGenerator.getEditCustomerPage(driver);
 	}
 	public UserDeleteCustomerPagePO openDeleteCustomerPage(WebDriver driver) {
-		waitToElementClickable(driver, AbtractPageUI.EDIT_CUSTOMER_LINK);
-		clickToElement(driver, AbtractPageUI.EDIT_CUSTOMER_LINK);
+		waitToElementClickable(driver, AbtractPageUI.DELETE_CUSTOMER_LINK);
+		clickToElement(driver, AbtractPageUI.DELETE_CUSTOMER_LINK);
 		return PageGenerator.getDeleteCustomerPage(driver);
+	}
+	public UserDeleteAccountPagePO openDeleteAccountPage(WebDriver driver) {
+		waitToElementClickable(driver, AbtractPageUI.DELETE_ACCOUNT_LINK);
+		clickToElement(driver, AbtractPageUI.DELETE_ACCOUNT_LINK);
+		return PageGenerator.getDeleteAccountPage(driver);
 	}
 
 	

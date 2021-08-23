@@ -1,19 +1,18 @@
-2021-08-22 15:55:33,994 INFO  com.bankguru.users.User_05_Delete_Customer_Verify Step-01: open new customer page
-2021-08-22 15:55:35,238 INFO  com.bankguru.users.User_05_Delete_Customer_Verify Step-02: input to Customer id with empty data
-2021-08-22 15:55:35,932 INFO  com.bankguru.users.User_05_Delete_Customer_Verify Step-03: press key tab
-2021-08-22 15:55:37,080 INFO  com.bankguru.users.User_05_Delete_Customer_Verify Step-04: verify error message 'Customer ID is required' displayed
-2021-08-22 15:55:37,198 INFO  com.bankguru.users.User_05_Delete_Customer_Verify  -------------------------- PASSED -------------------------- 
-2021-08-22 15:55:37,483 INFO  com.bankguru.users.User_05_Delete_Customer_Verify Step-01: input to Customer id with have character data
-2021-08-22 15:55:38,225 INFO  com.bankguru.users.User_05_Delete_Customer_Verify Step-02: verify error message 'Characters are not allowed' displayed
-2021-08-22 15:55:38,283 INFO  com.bankguru.users.User_05_Delete_Customer_Verify  -------------------------- PASSED -------------------------- 
-2021-08-22 15:55:38,292 INFO  com.bankguru.users.User_05_Delete_Customer_Verify Step-01: input to Customer id with special character data
-2021-08-22 15:55:38,998 INFO  com.bankguru.users.User_05_Delete_Customer_Verify Step-02: verify error message 'Special characters are not allowed' displayed
-2021-08-22 15:55:39,069 INFO  com.bankguru.users.User_05_Delete_Customer_Verify  -------------------------- PASSED -------------------------- 
-2021-08-22 15:55:39,077 INFO  com.bankguru.users.User_05_Delete_Customer_Verify Step-01: input to Customer id with First space character data
-2021-08-22 15:55:39,754 INFO  com.bankguru.users.User_05_Delete_Customer_Verify Step-02: verify error message 'First character can not have space' displayed
-2021-08-22 15:55:39,837 INFO  com.bankguru.users.User_05_Delete_Customer_Verify  -------------------------- PASSED -------------------------- 
-2021-08-22 15:55:39,844 INFO  com.bankguru.users.User_05_Delete_Customer_Verify Step-01: input to Customer id with have blank space 
-2021-08-22 15:55:40,503 INFO  com.bankguru.users.User_05_Delete_Customer_Verify Step-02: verify error message 'First character can not have space' displayed
-2021-08-22 15:55:40,557 INFO  com.bankguru.users.User_05_Delete_Customer_Verify  -------------------------- PASSED -------------------------- 
-2021-08-22 15:55:40,562 INFO  com.bankguru.users.User_05_Delete_Customer_Verify OS name = windows 10
-2021-08-22 15:55:41,715 INFO  com.bankguru.users.User_05_Delete_Customer_Verify ---------- QUIT BROWSER SUCCESS ----------
+2021-08-23 16:51:42,324 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-01: open edit account page
+2021-08-23 16:51:43,071 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-02: input to account no textbox with empty data
+2021-08-23 16:51:43,782 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-03: press key tab
+2021-08-23 16:51:44,937 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-04: verify error message 'Account Number must not be blank' displayed
+2021-08-23 16:51:45,053 INFO  com.bankguru.users.User_07_Delete_Account_Verify  -------------------------- PASSED -------------------------- 
+2021-08-23 16:51:45,288 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-01: input to account no textbox with have character data
+2021-08-23 16:51:45,954 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-02: verify error message 'Characters are not allowed' displayed
+2021-08-23 16:51:46,024 INFO  com.bankguru.users.User_07_Delete_Account_Verify  -------------------------- PASSED -------------------------- 
+2021-08-23 16:51:46,033 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-01: input to account no textbox with special character data
+2021-08-23 16:51:46,683 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-02: verify error message 'Special characters are not allowed' displayed
+2021-08-23 16:51:46,814 INFO  com.bankguru.users.User_07_Delete_Account_Verify  -------------------------- PASSED -------------------------- 
+2021-08-23 16:51:46,823 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-01: input to account no textbox with have space character
+2021-08-23 16:51:47,717 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-02: verify error message 'Characters are not allowed' displayed
+2021-08-23 16:51:47,781 INFO  com.bankguru.users.User_07_Delete_Account_Verify  -------------------------- PASSED -------------------------- 
+2021-08-23 16:51:47,788 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-01: input to account no textbox with first character as blank
+2021-08-23 16:51:48,430 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-02: verify error message 'Characters are not allowed' displayed
+2021-08-23 16:52:18,764 INFO  com.bankguru.users.User_07_Delete_Account_Verify OS name = windows 10
+2021-08-23 16:52:19,636 INFO  com.bankguru.users.User_07_Delete_Account_Verify ---------- QUIT BROWSER SUCCESS ----------

@@ -695,3 +695,30 @@
 [INFO ] [2021-08-22 15:55:40,557]  -------------------------- PASSED -------------------------- 
 [INFO ] [2021-08-22 15:55:40,562] OS name = windows 10
 [INFO ] [2021-08-22 15:55:41,715] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-23 16:47:29,855] Step-01: open edit account page
+[INFO ] [2021-08-23 16:47:30,647] Step-02: input to account no textbox with empty data
+[INFO ] [2021-08-23 16:48:00,939] Step-01: input to account no textbox with have character data
+[INFO ] [2021-08-23 16:48:31,014] Step-01: input to account no textbox with special character data
+[INFO ] [2021-08-23 16:49:01,122] Step-01: input to account no textbox with have space character
+[INFO ] [2021-08-23 16:49:31,162] Step-01: input to account no textbox with first character as blank
+[INFO ] [2021-08-23 16:49:35,007] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-23 16:50:05,117] OS name = windows 10
+[INFO ] [2021-08-23 16:50:06,174] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-23 16:51:42,324] Step-01: open edit account page
+[INFO ] [2021-08-23 16:51:43,071] Step-02: input to account no textbox with empty data
+[INFO ] [2021-08-23 16:51:43,782] Step-03: press key tab
+[INFO ] [2021-08-23 16:51:44,937] Step-04: verify error message 'Account Number must not be blank' displayed
+[INFO ] [2021-08-23 16:51:45,053]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-23 16:51:45,288] Step-01: input to account no textbox with have character data
+[INFO ] [2021-08-23 16:51:45,954] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-23 16:51:46,024]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-23 16:51:46,033] Step-01: input to account no textbox with special character data
+[INFO ] [2021-08-23 16:51:46,683] Step-02: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-23 16:51:46,814]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-23 16:51:46,823] Step-01: input to account no textbox with have space character
+[INFO ] [2021-08-23 16:51:47,717] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-23 16:51:47,781]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-23 16:51:47,788] Step-01: input to account no textbox with first character as blank
+[INFO ] [2021-08-23 16:51:48,430] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-23 16:52:18,764] OS name = windows 10
+[INFO ] [2021-08-23 16:52:19,636] ---------- QUIT BROWSER SUCCESS ----------

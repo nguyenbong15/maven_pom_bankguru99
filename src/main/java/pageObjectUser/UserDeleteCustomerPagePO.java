@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 
 import commons.AbtractPage;
 import pageUIUser.UserDeleteCustomerPageUI;
-import pageUIUser.UserEditCustomerPageUI;
 
 public class UserDeleteCustomerPagePO extends AbtractPage{
 	WebDriver driver;
