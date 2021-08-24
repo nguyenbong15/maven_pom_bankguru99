@@ -19,6 +19,7 @@ import pageObjectUser.UserDeleteAccountPagePO;
 import pageObjectUser.UserDeleteCustomerPagePO;
 import pageObjectUser.UserEditAccountPagePO;
 import pageObjectUser.UserEditCustomerPagePO;
+import pageObjectUser.UserMiniStatementPagePO;
 import pageObjectUser.UserNewAccountPagePO;
 import pageObjectUser.UserNewCustomerPagePO;
 import pageUIUser.AbtractPageUI;
@@ -385,6 +386,11 @@ public class AbtractPage {
 		waitToElementClickable(driver, AbtractPageUI.DELETE_ACCOUNT_LINK);
 		clickToElement(driver, AbtractPageUI.DELETE_ACCOUNT_LINK);
 		return PageGenerator.getDeleteAccountPage(driver);
+	}
+	public UserMiniStatementPagePO openMiniStatementPage(WebDriver driver) {
+		waitToElementClickable(driver, AbtractPageUI.DELETE_ACCOUNT_LINK);
+		clickToElement(driver, AbtractPageUI.DELETE_ACCOUNT_LINK);
+		return PageGenerator.getMiniStatementPage(driver);
 	}
 
 	

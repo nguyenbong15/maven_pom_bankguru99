@@ -28,4 +28,8 @@ public class PageGenerator {
 	public static UserEditAccountPagePO getEditAccountPage(WebDriver driver) {
 		return new UserEditAccountPagePO(driver);
 	}
+	public static UserMiniStatementPagePO getMiniStatementPage(WebDriver driver) {
+		// TODO Auto-generated method stub
+		return new UserMiniStatementPagePO(driver) ;
+	}
 }

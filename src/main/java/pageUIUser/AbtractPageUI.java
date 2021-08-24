@@ -7,4 +7,5 @@ public class AbtractPageUI {
 	public static final String NEW_CUSTOMER_LINK = "//a[text()='New Customer']";
 	public static final String EDIT_CUSTOMER_LINK = "//a[text()='Edit Customer']";
 	public static final String DELETE_CUSTOMER_LINK = "//a[text()='Delete Customer']";
+	public static final String MINI_STATEMENT_LINK = "//a[text()='Mini Statement']";
 }
