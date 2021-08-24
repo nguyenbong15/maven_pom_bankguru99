@@ -37,4 +37,7 @@ public class PageGenerator {
 	public static UserFundTransferPagePO getFundTransferPage(WebDriver driver) {
 		return new UserFundTransferPagePO(driver);
 	}
+	public static UserCustomisedStatementPagePO getCustomisedStatmentPage(WebDriver driver) {
+		return new UserCustomisedStatementPagePO(driver);
+	}
 }

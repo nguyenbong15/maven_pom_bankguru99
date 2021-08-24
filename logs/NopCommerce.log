@@ -787,3 +787,118 @@
 [INFO ] [2021-08-24 11:57:53,346]  -------------------------- PASSED -------------------------- 
 [INFO ] [2021-08-24 11:57:53,353] OS name = windows 10
 [INFO ] [2021-08-24 11:57:54,225] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-24 12:21:36,411] Step-01: open change password  page
+[INFO ] [2021-08-24 12:21:37,217] Step-02: input to payer account textbox with empty data
+[INFO ] [2021-08-24 12:21:37,907] Step-03: press key tab
+[INFO ] [2021-08-24 12:21:39,075] Step-04: verify error message 'Payers Account Number must not be blank' displayed
+[INFO ] [2021-08-24 12:21:39,164]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:21:39,417] Step-01: input to payer account textbox with have character
+[INFO ] [2021-08-24 12:21:40,101] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 12:21:40,174]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:21:40,183] Step-01: input to payer account textbox with have character
+[INFO ] [2021-08-24 12:21:40,861] Step-02: verify error message ' Special characters are not allowed' displayed
+[INFO ] [2021-08-24 12:21:40,915]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-24 12:21:40,929] Step-01: input to payees account textbox with empty data
+[INFO ] [2021-08-24 12:21:41,659] Step-02: press key tab
+[INFO ] [2021-08-24 12:21:42,875] Step-03: verify error message 'Payers Account Number must not be blank' displayed
+[INFO ] [2021-08-24 12:21:43,015]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-24 12:21:43,026] Step-01: input to payees account textbox with have character
+[INFO ] [2021-08-24 12:21:43,694] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 12:21:43,787]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:21:43,796] Step-01: input to payees account textbox with have character
+[INFO ] [2021-08-24 12:21:44,508] Step-02: verify error message ' Special characters are not allowed' displayed
+[INFO ] [2021-08-24 12:21:44,572]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-24 12:21:44,584] Step-01: input to Amount  textbox with empty data
+[INFO ] [2021-08-24 12:21:45,295] Step-02: press key tab
+[INFO ] [2021-08-24 12:21:46,499] Step-03: verify error message 'Payers Account Number must not be blank' displayed
+[INFO ] [2021-08-24 12:21:46,630]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-24 12:21:46,637] Step-01: input to Amount textbox with have character
+[INFO ] [2021-08-24 12:21:47,311] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 12:21:47,368]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:21:47,375] Step-01: input to Amount textbox with have character
+[INFO ] [2021-08-24 12:21:48,056] Step-02: verify error message ' Special characters are not allowed' displayed
+[INFO ] [2021-08-24 12:21:48,116]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-24 12:21:48,123] OS name = windows 10
+[INFO ] [2021-08-24 12:21:49,021] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-24 12:23:18,963] Step-01: open change password  page
+[INFO ] [2021-08-24 12:23:19,951] Step-02: input to payer account textbox with empty data
+[INFO ] [2021-08-24 12:23:20,671] Step-03: press key tab
+[INFO ] [2021-08-24 12:23:21,827] Step-04: verify error message 'Payers Account Number must not be blank' displayed
+[INFO ] [2021-08-24 12:23:21,920]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:23:22,164] Step-01: input to payer account textbox with have character
+[INFO ] [2021-08-24 12:23:22,838] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 12:23:22,891]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:23:22,901] Step-01: input to payer account textbox with have character
+[INFO ] [2021-08-24 12:23:23,598] Step-02: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-24 12:23:23,657]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:23:23,667] Step-01: input to payees account textbox with empty data
+[INFO ] [2021-08-24 12:23:24,351] Step-02: press key tab
+[INFO ] [2021-08-24 12:23:25,534] Step-03: verify error message 'Payees Account Number must not be blank' displayed
+[INFO ] [2021-08-24 12:23:25,672]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:23:25,684] Step-01: input to payees account textbox with have character
+[INFO ] [2021-08-24 12:23:26,335] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 12:23:26,410]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:23:26,419] Step-01: input to payees account textbox with have character
+[INFO ] [2021-08-24 12:23:27,110] Step-02: verify error message ' Special characters are not allowed' displayed
+[INFO ] [2021-08-24 12:23:27,164]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:23:27,173] Step-01: input to Amount  textbox with empty data
+[INFO ] [2021-08-24 12:23:27,897] Step-02: press key tab
+[INFO ] [2021-08-24 12:23:29,071] Step-03: verify error message 'Amount field Number must not be blank' displayed
+[INFO ] [2021-08-24 12:23:29,209]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-24 12:23:29,226] Step-01: input to Amount textbox with have character
+[INFO ] [2021-08-24 12:23:29,964] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 12:23:30,037]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:23:30,043] Step-01: input to Amount textbox with have character
+[INFO ] [2021-08-24 12:23:30,731] Step-02: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-24 12:23:30,783]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:23:30,788] OS name = windows 10
+[INFO ] [2021-08-24 12:23:31,667] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-24 12:44:52,598] Step-01: open edit account page
+[INFO ] [2021-08-24 12:44:53,682] Step-02: input to account no textbox with empty data
+[INFO ] [2021-08-24 12:44:54,373] Step-03: press key tab
+[INFO ] [2021-08-24 12:44:55,511] Step-04: verify error message 'Account Number must not be blank' displayed
+[INFO ] [2021-08-24 12:44:55,614]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:44:55,845] Step-01: input to account no textbox with have character data
+[INFO ] [2021-08-24 12:44:56,590] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 12:44:56,653]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:44:56,661] Step-01: input to account no textbox with special character data
+[INFO ] [2021-08-24 12:44:57,419] Step-02: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-24 12:44:57,476]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:44:57,485] Step-01: input to account no textbox with have space character
+[INFO ] [2021-08-24 12:44:58,189] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 12:44:58,248]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:44:58,256] Step-01: input to account no textbox with first character as blank
+[INFO ] [2021-08-24 12:44:58,937] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 12:44:58,995]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:44:59,004] Step-02: input to minimum transaction textbox with empty data
+[INFO ] [2021-08-24 12:44:59,731] Step-03: press key tab
+[INFO ] [2021-08-24 12:45:00,902] Step-04: verify error message 'Account Number must not be blank' displayed
+[INFO ] [2021-08-24 12:45:31,295] Step-01: input to minimum transaction textbox with have character data
+[INFO ] [2021-08-24 12:45:31,957] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 12:45:32,037]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:45:32,046] Step-01: input to minimum transaction textbox with special character data
+[INFO ] [2021-08-24 12:45:32,737] Step-02: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-24 12:45:32,796]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:45:32,805] Step-01: input to minimum transaction textbox with have space character
+[INFO ] [2021-08-24 12:45:33,494] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 12:45:33,547]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:45:33,555] Step-01: input to minimum transaction textbox with first character as blank
+[INFO ] [2021-08-24 12:45:34,189] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 12:45:34,253]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:45:34,260] Step-02: input to Number transaction textbox with empty data
+[INFO ] [2021-08-24 12:45:34,956] Step-03: press key tab
+[INFO ] [2021-08-24 12:45:36,162] Step-04: verify error message 'Account Number must not be blank' displayed
+[INFO ] [2021-08-24 12:46:06,451] Step-01: input to Number transaction textbox with have character data
+[INFO ] [2021-08-24 12:46:07,140] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 12:46:07,214]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:46:07,220] Step-01: input to Number transaction textbox with special character data
+[INFO ] [2021-08-24 12:46:07,893] Step-02: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-24 12:46:07,969]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:46:07,978] Step-01: input to Number transaction textbox with have space character
+[INFO ] [2021-08-24 12:46:08,659] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 12:46:08,709]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:46:08,714] Step-01: input to Number transaction textbox with first character as blank
+[INFO ] [2021-08-24 12:46:09,392] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 12:46:09,489]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 12:46:09,495] OS name = windows 10
+[INFO ] [2021-08-24 12:46:10,420] ---------- QUIT BROWSER SUCCESS ----------

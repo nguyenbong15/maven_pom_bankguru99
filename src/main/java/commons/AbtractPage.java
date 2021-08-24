@@ -16,6 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pageObjectUser.PageGenerator;
 import pageObjectUser.UserChangePasswordPagePO;
+import pageObjectUser.UserCustomisedStatementPagePO;
 import pageObjectUser.UserDeleteAccountPagePO;
 import pageObjectUser.UserDeleteCustomerPagePO;
 import pageObjectUser.UserEditAccountPagePO;
@@ -403,6 +404,11 @@ public class AbtractPage {
 		waitToElementClickable(driver, AbtractPageUI.FUND_TRANSFER_LINK);
 		clickToElement(driver, AbtractPageUI.FUND_TRANSFER_LINK);
 		return PageGenerator.getFundTransferPage(driver);
+	}
+	public UserCustomisedStatementPagePO openCustomisedStatmentPage(WebDriver driver) {
+		waitToElementClickable(driver, AbtractPageUI.CUSTOMISED_STATEMENT_LINK);
+		clickToElement(driver, AbtractPageUI.CUSTOMISED_STATEMENT_LINK);
+		return PageGenerator.getCustomisedStatmentPage(driver);
 	}
 
 	
