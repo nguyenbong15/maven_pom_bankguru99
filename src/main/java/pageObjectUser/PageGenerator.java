@@ -34,4 +34,7 @@ public class PageGenerator {
 	public static UserChangePasswordPagePO getChangePasswordPage(WebDriver driver) {
 		return new UserChangePasswordPagePO(driver);
 	}
+	public static UserFundTransferPagePO getFundTransferPage(WebDriver driver) {
+		return new UserFundTransferPagePO(driver);
+	}
 }

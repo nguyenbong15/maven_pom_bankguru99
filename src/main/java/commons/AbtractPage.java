@@ -20,6 +20,7 @@ import pageObjectUser.UserDeleteAccountPagePO;
 import pageObjectUser.UserDeleteCustomerPagePO;
 import pageObjectUser.UserEditAccountPagePO;
 import pageObjectUser.UserEditCustomerPagePO;
+import pageObjectUser.UserFundTransferPagePO;
 import pageObjectUser.UserMiniStatementPagePO;
 import pageObjectUser.UserNewAccountPagePO;
 import pageObjectUser.UserNewCustomerPagePO;
@@ -397,6 +398,11 @@ public class AbtractPage {
 		waitToElementClickable(driver, AbtractPageUI.CHANGE_PASSWORD_LINK);
 		clickToElement(driver, AbtractPageUI.CHANGE_PASSWORD_LINK);
 		return PageGenerator.getChangePasswordPage(driver);
+	}
+	public UserFundTransferPagePO openFundTransferPage(WebDriver driver) {
+		waitToElementClickable(driver, AbtractPageUI.FUND_TRANSFER_LINK);
+		clickToElement(driver, AbtractPageUI.FUND_TRANSFER_LINK);
+		return PageGenerator.getFundTransferPage(driver);
 	}
 
 	
