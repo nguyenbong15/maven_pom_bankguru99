@@ -722,3 +722,68 @@
 [INFO ] [2021-08-23 16:51:48,430] Step-02: verify error message 'Characters are not allowed' displayed
 [INFO ] [2021-08-23 16:52:18,764] OS name = windows 10
 [INFO ] [2021-08-23 16:52:19,636] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-24 11:16:58,655] Step-01: open edit account page
+[INFO ] [2021-08-24 11:16:59,482] Step-02: input to account no textbox with empty data
+[INFO ] [2021-08-24 11:17:00,224] Step-03: press key tab
+[INFO ] [2021-08-24 11:17:01,411] Step-04: verify error message 'Account Number must not be blank' displayed
+[INFO ] [2021-08-24 11:17:01,502]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 11:17:01,847] Step-01: input to account no textbox with have character data
+[INFO ] [2021-08-24 11:17:02,534] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 11:17:02,589]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 11:17:02,599] Step-01: input to account no textbox with special character data
+[INFO ] [2021-08-24 11:17:03,267] Step-02: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-24 11:17:03,343]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 11:17:03,350] Step-01: input to account no textbox with have space character
+[INFO ] [2021-08-24 11:17:04,015] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 11:17:04,065]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 11:17:04,074] Step-01: input to account no textbox with first character as blank
+[INFO ] [2021-08-24 11:17:04,716] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 11:17:17,994]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-24 11:17:18,008] OS name = windows 10
+[INFO ] [2021-08-24 11:17:18,983] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-24 11:19:12,349] Step-01: open edit account page
+[INFO ] [2021-08-24 11:19:13,119] Step-02: input to account no textbox with empty data
+[INFO ] [2021-08-24 11:19:13,858] Step-03: press key tab
+[INFO ] [2021-08-24 11:19:15,040] Step-04: verify error message 'Account Number must not be blank' displayed
+[INFO ] [2021-08-24 11:19:15,146]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 11:19:15,358] Step-01: input to account no textbox with have character data
+[INFO ] [2021-08-24 11:19:16,027] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 11:19:16,102]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 11:19:16,110] Step-01: input to account no textbox with special character data
+[INFO ] [2021-08-24 11:19:16,840] Step-02: verify error message 'Special characters are not allowed' displayed
+[INFO ] [2021-08-24 11:19:16,903]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 11:19:16,911] Step-01: input to account no textbox with have space character
+[INFO ] [2021-08-24 11:19:17,597] Step-02: verify error message 'Characters are not allowed' displayed
+[INFO ] [2021-08-24 11:19:17,664]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 11:19:17,698] Step-01: input to account no textbox with first character as blank
+[INFO ] [2021-08-24 11:19:18,375] Step-02: verify error message 'Account Number must not be blank' displayed
+[INFO ] [2021-08-24 11:19:18,472]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-24 11:19:18,480] OS name = windows 10
+[INFO ] [2021-08-24 11:19:19,347] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-24 11:57:44,112] Step-01: open change password  page
+[INFO ] [2021-08-24 11:57:44,574] Step-02: input to old password textbox with empty data
+[INFO ] [2021-08-24 11:57:45,276] Step-03: press key tab
+[INFO ] [2021-08-24 11:57:46,402] Step-04: verify error message 'Old Password must not be blank' displayed
+[INFO ] [2021-08-24 11:57:46,493]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 11:57:46,707] Step-01: input to new password textbox with empty data
+[INFO ] [2021-08-24 11:57:47,398] Step-02: press key tab
+[INFO ] [2021-08-24 11:57:48,601] Step-03: verify error message 'New Password must not be blank' displayed
+[INFO ] [2021-08-24 11:57:48,736]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 11:57:48,754] Step-01: input to new password textbox with have not number
+[INFO ] [2021-08-24 11:57:49,413] Step-02: verify error message 'Enter at-least one numeric value' displayed
+[INFO ] [2021-08-24 11:57:49,493]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 11:57:49,503] Step-01: input to new password textbox with have not special Character
+[INFO ] [2021-08-24 11:57:50,196] Step-02: verify error message 'Enter at-least one special character' displayed
+[INFO ] [2021-08-24 11:57:50,255]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 11:57:50,265] Step-01: input to new password textbox 
+[INFO ] [2021-08-24 11:57:50,966] Step-02: input to confirm password textbox 
+[INFO ] [2021-08-24 11:57:51,713] Step-02: verify error message 'Passwords do not Match' displayed
+[INFO ] [2021-08-24 11:57:51,798]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 11:57:51,806] Step-01: input to new password textbox with have string 'password' or 'Password'
+[INFO ] [2021-08-24 11:57:52,530] Step-02: verify error message 'Choose a difficult Password' displayed
+[INFO ] [2021-08-24 11:57:52,590]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 11:57:52,590] Step-01: input to new password textbox with have string 'password' or 'Password'
+[INFO ] [2021-08-24 11:57:53,295] Step-02: verify error message 'Choose a difficult Password' displayed
+[INFO ] [2021-08-24 11:57:53,346]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-24 11:57:53,353] OS name = windows 10
+[INFO ] [2021-08-24 11:57:54,225] ---------- QUIT BROWSER SUCCESS ----------

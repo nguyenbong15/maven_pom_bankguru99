@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pageObjectUser.PageGenerator;
+import pageObjectUser.UserChangePasswordPagePO;
 import pageObjectUser.UserDeleteAccountPagePO;
 import pageObjectUser.UserDeleteCustomerPagePO;
 import pageObjectUser.UserEditAccountPagePO;
@@ -388,9 +389,14 @@ public class AbtractPage {
 		return PageGenerator.getDeleteAccountPage(driver);
 	}
 	public UserMiniStatementPagePO openMiniStatementPage(WebDriver driver) {
-		waitToElementClickable(driver, AbtractPageUI.DELETE_ACCOUNT_LINK);
-		clickToElement(driver, AbtractPageUI.DELETE_ACCOUNT_LINK);
+		waitToElementClickable(driver, AbtractPageUI.MINI_STATEMENT_LINK);
+		clickToElement(driver, AbtractPageUI.MINI_STATEMENT_LINK);
 		return PageGenerator.getMiniStatementPage(driver);
+	}
+	public UserChangePasswordPagePO openChangePasswordPage(WebDriver driver) {
+		waitToElementClickable(driver, AbtractPageUI.CHANGE_PASSWORD_LINK);
+		clickToElement(driver, AbtractPageUI.CHANGE_PASSWORD_LINK);
+		return PageGenerator.getChangePasswordPage(driver);
 	}
 
 	

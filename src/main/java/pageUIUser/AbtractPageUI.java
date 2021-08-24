@@ -8,4 +8,7 @@ public class AbtractPageUI {
 	public static final String EDIT_CUSTOMER_LINK = "//a[text()='Edit Customer']";
 	public static final String DELETE_CUSTOMER_LINK = "//a[text()='Delete Customer']";
 	public static final String MINI_STATEMENT_LINK = "//a[text()='Mini Statement']";
+	public static final String CHANGE_PASSWORD_LINK = "//a[text()='Change Password']";
+	public static final String CUSTOMISED_STATEMENT_LINK = "//a[text()='Customised Statement']";
+	public static final String FUND_TRANSFER_LINK = "//a[text()='Fund Transfer']";
 }

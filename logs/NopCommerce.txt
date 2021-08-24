@@ -1,18 +1,27 @@
-2021-08-23 16:51:42,324 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-01: open edit account page
-2021-08-23 16:51:43,071 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-02: input to account no textbox with empty data
-2021-08-23 16:51:43,782 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-03: press key tab
-2021-08-23 16:51:44,937 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-04: verify error message 'Account Number must not be blank' displayed
-2021-08-23 16:51:45,053 INFO  com.bankguru.users.User_07_Delete_Account_Verify  -------------------------- PASSED -------------------------- 
-2021-08-23 16:51:45,288 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-01: input to account no textbox with have character data
-2021-08-23 16:51:45,954 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-02: verify error message 'Characters are not allowed' displayed
-2021-08-23 16:51:46,024 INFO  com.bankguru.users.User_07_Delete_Account_Verify  -------------------------- PASSED -------------------------- 
-2021-08-23 16:51:46,033 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-01: input to account no textbox with special character data
-2021-08-23 16:51:46,683 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-02: verify error message 'Special characters are not allowed' displayed
-2021-08-23 16:51:46,814 INFO  com.bankguru.users.User_07_Delete_Account_Verify  -------------------------- PASSED -------------------------- 
-2021-08-23 16:51:46,823 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-01: input to account no textbox with have space character
-2021-08-23 16:51:47,717 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-02: verify error message 'Characters are not allowed' displayed
-2021-08-23 16:51:47,781 INFO  com.bankguru.users.User_07_Delete_Account_Verify  -------------------------- PASSED -------------------------- 
-2021-08-23 16:51:47,788 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-01: input to account no textbox with first character as blank
-2021-08-23 16:51:48,430 INFO  com.bankguru.users.User_07_Delete_Account_Verify Step-02: verify error message 'Characters are not allowed' displayed
-2021-08-23 16:52:18,764 INFO  com.bankguru.users.User_07_Delete_Account_Verify OS name = windows 10
-2021-08-23 16:52:19,636 INFO  com.bankguru.users.User_07_Delete_Account_Verify ---------- QUIT BROWSER SUCCESS ----------
+2021-08-24 11:57:44,112 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-01: open change password  page
+2021-08-24 11:57:44,574 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-02: input to old password textbox with empty data
+2021-08-24 11:57:45,276 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-03: press key tab
+2021-08-24 11:57:46,402 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-04: verify error message 'Old Password must not be blank' displayed
+2021-08-24 11:57:46,493 INFO  com.bankguru.users.User_09_Change_Password_Verify  -------------------------- PASSED -------------------------- 
+2021-08-24 11:57:46,707 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-01: input to new password textbox with empty data
+2021-08-24 11:57:47,398 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-02: press key tab
+2021-08-24 11:57:48,601 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-03: verify error message 'New Password must not be blank' displayed
+2021-08-24 11:57:48,736 INFO  com.bankguru.users.User_09_Change_Password_Verify  -------------------------- PASSED -------------------------- 
+2021-08-24 11:57:48,754 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-01: input to new password textbox with have not number
+2021-08-24 11:57:49,413 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-02: verify error message 'Enter at-least one numeric value' displayed
+2021-08-24 11:57:49,493 INFO  com.bankguru.users.User_09_Change_Password_Verify  -------------------------- PASSED -------------------------- 
+2021-08-24 11:57:49,503 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-01: input to new password textbox with have not special Character
+2021-08-24 11:57:50,196 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-02: verify error message 'Enter at-least one special character' displayed
+2021-08-24 11:57:50,255 INFO  com.bankguru.users.User_09_Change_Password_Verify  -------------------------- PASSED -------------------------- 
+2021-08-24 11:57:50,265 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-01: input to new password textbox 
+2021-08-24 11:57:50,966 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-02: input to confirm password textbox 
+2021-08-24 11:57:51,713 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-02: verify error message 'Passwords do not Match' displayed
+2021-08-24 11:57:51,798 INFO  com.bankguru.users.User_09_Change_Password_Verify  -------------------------- PASSED -------------------------- 
+2021-08-24 11:57:51,806 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-01: input to new password textbox with have string 'password' or 'Password'
+2021-08-24 11:57:52,530 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-02: verify error message 'Choose a difficult Password' displayed
+2021-08-24 11:57:52,590 INFO  com.bankguru.users.User_09_Change_Password_Verify  -------------------------- PASSED -------------------------- 
+2021-08-24 11:57:52,590 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-01: input to new password textbox with have string 'password' or 'Password'
+2021-08-24 11:57:53,295 INFO  com.bankguru.users.User_09_Change_Password_Verify Step-02: verify error message 'Choose a difficult Password' displayed
+2021-08-24 11:57:53,346 INFO  com.bankguru.users.User_09_Change_Password_Verify  -------------------------- PASSED -------------------------- 
+2021-08-24 11:57:53,353 INFO  com.bankguru.users.User_09_Change_Password_Verify OS name = windows 10
+2021-08-24 11:57:54,225 INFO  com.bankguru.users.User_09_Change_Password_Verify ---------- QUIT BROWSER SUCCESS ----------

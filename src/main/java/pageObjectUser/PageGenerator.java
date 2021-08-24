@@ -29,7 +29,9 @@ public class PageGenerator {
 		return new UserEditAccountPagePO(driver);
 	}
 	public static UserMiniStatementPagePO getMiniStatementPage(WebDriver driver) {
-		// TODO Auto-generated method stub
 		return new UserMiniStatementPagePO(driver) ;
+	}
+	public static UserChangePasswordPagePO getChangePasswordPage(WebDriver driver) {
+		return new UserChangePasswordPagePO(driver);
 	}
 }

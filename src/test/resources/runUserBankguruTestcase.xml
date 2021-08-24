@@ -12,7 +12,7 @@
 		<parameter name="url" value="http://demo.guru99.com/v4/" />
 		<classes>
 		<!-- 	<class name="com.bankguru.commons.Common_01_Login_Page" /> -->
-			<class name="com.bankguru.users.User_08_Mini_Statement_Verify" />
+			<class name="com.bankguru.users.User_09_Change_Password_Verify" />
 		</classes>
 
 	</test>
