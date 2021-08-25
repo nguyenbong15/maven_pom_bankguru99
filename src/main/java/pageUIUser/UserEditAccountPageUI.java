@@ -8,6 +8,7 @@ public class UserEditAccountPageUI {
 	public static final String ERROR_MESSAGE_OF_CUSTOMER_ID_VERIFY = "//input[@name='cusid']/following-sibling::label";
 	public static final String ERROR_MESSAGE_OF_BALANCE_VERIFY = "//input[@name='txtinitdep']/following-sibling::label";
 	public static final String ERROR_MESSAGE_OF_ACCOUNT_NO_VERIFY = "//input[@name='accountno']/following-sibling::label";
-
+	public static final String ACCOUNT_TYPE_DROPDOWN = "//select[@name='selaccount']";
+	public static final String GET_TEXT_ACCOUNT_TYPE_DROPDOWN = "//td[text()='Account Type']/following-sibling::td";
 
 }

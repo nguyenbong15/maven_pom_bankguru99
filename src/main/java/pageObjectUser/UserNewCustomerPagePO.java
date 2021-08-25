@@ -117,9 +117,62 @@ public class UserNewCustomerPagePO extends AbtractPage{
 		senkeyToElement(driver, UserNewCustomerPageUI.PASSWORD_TEXTBOX, password);
 	}
 
-	public String getCustomerId() {
+	
+	public String getTextMeassageSuccess() {
+		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_MESSAGE_SUCCESS);
+		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_MESSAGE_SUCCESS);
+	
+	}
+    public String getCustomerId() {
 		waitToElementVisible(driver, UserNewCustomerPageUI.CUSTOMER_ID_TEXT);
 		return getTextElement(driver, UserNewCustomerPageUI.CUSTOMER_ID_TEXT);
+	
+	}
+
+	public String getTextCustomerName() {
+		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_CUSTOMER_NAME);
+		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_CUSTOMER_NAME);
+	
+	}
+
+	public String getTextGender() {
+		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_GENDER);
+		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_GENDER);
+	}
+
+	public String getTextAddress() {
+		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_ADDRESS);
+		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_ADDRESS);
+	
+	}
+
+	public String getTextCity() {
+		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_CITY);
+		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_CITY);
+	
+	}
+
+	public String getTextState() {
+		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_STATE);
+		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_STATE);
+	
+	}
+
+	public String getTextPhoneNumber() {
+		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_MOBILE_NUMBER);
+		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_MOBILE_NUMBER);
+	
+	}
+
+	public String getTextPin() {
+		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_PIN);
+		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_PIN);
+	
+	}
+
+	public String getTextEmail() {
+		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_EMAIL);
+		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_EMAIL);
 	
 	}
 	

@@ -1,8 +1,6 @@
 package pageUIUser;
 
 public class UserEditCustomerPageUI {
-	
-	
 	public static final String CUSTOMER_ID_TEXTBOX = "//input[@name='cusid']";
 	public static final String SUBMIT_BUTTON = "//input[@name='AccSubmit']";
 	public static final String ERROR_MESSAGE_OF_CUSTOMER_ID_VERIFY = "//input[@name='cusid']/following-sibling::label";
@@ -20,4 +18,15 @@ public class UserEditCustomerPageUI {
 	public static final String CITY_TEXTBOX = "//input[@name='city']";
 	public static final String ERROR_MESSAGE_OF_ADDRESS_VERIFY = "//textarea[@name='addr']/following-sibling::label";
 	public static final String ERROR_MESSAGE_OF_CITY_VERIFY = "//input[@name='city']/following-sibling::label";
+	
+	public static final String GET_TEXT_CUSTOMER_NAME = "//td[text()='Customer Name']/following-sibling::td";
+	public static final String GET_TEXT_GENDER = "//td[text()='Gender']/following-sibling::td";
+	public static final String GET_TEXT_DATE_OF_BIRTH= "//td[text()='Birthdate']/following-sibling::td";
+	public static final String GET_TEXT_ADDRESS = "//td[text()='Address']/following-sibling::td";
+	public static final String GET_TEXT_CITY = "//td[text()='City']/following-sibling::td";
+	public static final String GET_TEXT_STATE = "//td[text()='State']/following-sibling::td";
+	public static final String GET_TEXT_MOBILE_NUMBER = "//td[text()='Mobile No.']/following-sibling::td";
+	public static final String GET_TEXT_PIN = "//td[text()='Pin']/following-sibling::td";
+	public static final String GET_TEXT_EMAIL = "//td[text()='Email']/following-sibling::td";
+
 }

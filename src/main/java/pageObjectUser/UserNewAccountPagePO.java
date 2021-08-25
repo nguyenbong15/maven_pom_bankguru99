@@ -56,5 +56,15 @@ public class UserNewAccountPagePO extends AbtractPage{
 		return getTextElement(driver, UserNewAcountPageUI.TEXT_ACCOUNT_ID);
 	}
 
+	public String getAmountDeposit() {
+		waitToElementVisible(driver, UserNewAcountPageUI.GET_TEXT_CURRENT_AMOUNT);
+		return getTextElement(driver, UserNewAcountPageUI.GET_TEXT_CURRENT_AMOUNT);
+	}
+
+	public String getMessageSuccess() {
+		waitToElementVisible(driver, UserNewAcountPageUI.GET_TEXT_MESSAGE_SUCCESS);
+		return getTextElement(driver, UserNewAcountPageUI.GET_TEXT_MESSAGE_SUCCESS);
+	}
+
 	
 }

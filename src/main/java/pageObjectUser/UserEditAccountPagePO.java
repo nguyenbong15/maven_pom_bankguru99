@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import commons.AbtractPage;
 import pageUIUser.UserEditAccountPageUI;
 import pageUIUser.UserEditCustomerPageUI;
+import pageUIUser.UserNewAcountPageUI;
 
 public class UserEditAccountPagePO extends AbtractPage{
 	WebDriver driver;
@@ -54,9 +55,21 @@ public class UserEditAccountPagePO extends AbtractPage{
 		
 	}
 
-	public Object getErrorMessageOfBalance() {
+	public String getErrorMessageOfBalance() {
 		waitToElementVisible(driver, UserEditAccountPageUI.ERROR_MESSAGE_OF_BALANCE_VERIFY);
 		return getTextElement(driver, UserEditAccountPageUI.ERROR_MESSAGE_OF_BALANCE_VERIFY);
+	
+	}
+
+	public void selectItemInAccountTypeDropdown(String itemValue) {
+		  waitToElementClickable(driver, UserEditAccountPageUI.ACCOUNT_TYPE_DROPDOWN);
+			selectItemInDropdown(driver, UserEditAccountPageUI.ACCOUNT_TYPE_DROPDOWN, itemValue);
+		}
+	
+
+	public String getTextAccountType() {
+		waitToElementVisible(driver, UserEditAccountPageUI.GET_TEXT_ACCOUNT_TYPE_DROPDOWN);
+		return getTextElement(driver, UserEditAccountPageUI.GET_TEXT_ACCOUNT_TYPE_DROPDOWN);
 	
 	}
 

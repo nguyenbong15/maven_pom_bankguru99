@@ -8,6 +8,8 @@ public class UserNewAcountPageUI {
 	public static final String SUBMIT_BUTTON = "//input[@name='sub']";
 	public static final String TEXT_ACCOUNT_ID = "//td[text()='Account ID']/following-sibling::td";
 	public static final String ACCOUNT_TYPE_DROPDOWN = "//select[@name='selaccount']";
+	public static final String GET_TEXT_MESSAGE_SUCCESS = "//table[@id='account']//p[@class='heading3']";
+	public static final String GET_TEXT_CURRENT_AMOUNT = "//td[text()='Current Amount']/following-sibling::td";
 
 
 }
