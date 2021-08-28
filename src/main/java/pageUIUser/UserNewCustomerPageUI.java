@@ -20,6 +20,7 @@ public class UserNewCustomerPageUI {
 	public static final String PASSWORD_TEXTBOX = "//input[@name='password']";
 	public static final String SUBMIT_BUTTON = "//input[@name='sub']";
 	public static final String CUSTOMER_ID_TEXT = "//td[text()='Customer ID']/following-sibling::td";
+	
 	public static final String GET_TEXT_MESSAGE_SUCCESS = "//table[@id='customer']//p[text()='Customer Registered Successfully!!!']";
 	public static final String GET_TEXT_CUSTOMER_NAME = "//td[text()='Customer Name']/following-sibling::td";
 	public static final String GET_TEXT_GENDER = "//td[text()='Gender']/following-sibling::td";

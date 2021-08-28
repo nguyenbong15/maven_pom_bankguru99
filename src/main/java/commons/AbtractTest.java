@@ -201,7 +201,6 @@ public class AbtractTest {
 		}
 	}
 	public WebDriver getDriver() {
-		
 		return driver;
 	}
 	}

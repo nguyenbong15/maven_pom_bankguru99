@@ -15,7 +15,7 @@ import pageObjectUser.UserManagerPagePO;
 import pageObjectUser.UserNewAccountPagePO;
 import pageObjectUser.UserNewCustomerPagePO;
 
-public class User_12_Payment extends AbtractTest{
+public class User_12_Payment_01_Create_And_Edit_Customer_And_Account extends AbtractTest{
     WebDriver driver;
     CommonLoginPagePO loginPage;
     UserManagerPagePO managerPage;
@@ -55,7 +55,8 @@ public class User_12_Payment extends AbtractTest{
 	    editemail="Nam@gmail.com";
 	    
 	    initialDeposit="50000";
-	    
+	    customerid="69888";
+	    accountId="96313";
 	}
 
 	@Test
@@ -107,7 +108,7 @@ public class User_12_Payment extends AbtractTest{
 		verifyEquals(newCustomer.getTextCustomerName(), customername);
 		
 		log.info("Step-16: verify gender male");
-		verifyEquals(newCustomer.getTextGender(),"Male");
+		verifyEquals(newCustomer.getTextGender(),"male");
 		
 		log.info("Step-17: verify address");
 		verifyEquals(newCustomer.getTextAddress(), address);
@@ -166,34 +167,34 @@ public class User_12_Payment extends AbtractTest{
 		editCustomer.inputToEmailTextbox(editemail);
 		
 		log.info("Step-12: click to submit button");
-		newCustomer.clickToSubmitbutton();
+		editCustomer.clickToSubmitbutton();
 		
 		log.info("Step-13: verify customer name");
-		verifyEquals(newCustomer.getTextCustomerName(), editcustomername);
+		verifyEquals(editCustomer.getTextCustomerName(), editcustomername);
 		
 		log.info("Step-14: verify gender male");
-		verifyEquals(newCustomer.getTextGender(),"Male");
+		verifyEquals(editCustomer.getTextGender(),"Male");
 		
 		log.info("Step-15: verify address");
-		verifyEquals(newCustomer.getTextAddress(), editaddress);
+		verifyEquals(editCustomer.getTextAddress(), editaddress);
 		
 		log.info("Step-16: verify city");
-		verifyEquals(newCustomer.getTextCity(), editcity);
+		verifyEquals(editCustomer.getTextCity(), editcity);
 		
 		log.info("Step-17: verify state");
-		verifyEquals(newCustomer.getTextState(), editstate);
+		verifyEquals(editCustomer.getTextState(), editstate);
 		
 		log.info("Step-18: verify pin");
-		verifyEquals(newCustomer.getTextPin(), editpin);
+		verifyEquals(editCustomer.getTextPin(), editpin);
 		
 		log.info("Step-19: verify mobile number");
-		verifyEquals(newCustomer.getTextPhoneNumber(), editphoneNumber);
+		verifyEquals(editCustomer.getTextPhoneNumber(), editphoneNumber);
 		
 		log.info("Step-20: verify email");
-		verifyEquals(newCustomer.getTextEmail(), editemail);
+		verifyEquals(editCustomer.getTextEmail(), editemail);
 	}
 	
-	@Test(dependsOnMethods = "TC_01_Create_New_Customer_And_Verify")
+	@Test
     public void TC_03_New_Account_And_Verify() {
 		
 	  log.info("Step-01: open new account page");
@@ -203,7 +204,7 @@ public class User_12_Payment extends AbtractTest{
 	  newAccount.inputToCustomerIdTextbox(customerid);
 	  
 	  log.info("Step-03: select item in Account type dropdown");
-	  newAccount.selecItemInAccountTypeDropDown("Saving");
+	  newAccount.selecItemInAccountTypeDropDown("Savings");
 	  
 	  log.info("Step-04: input to Initial deposit text box");
 	  newAccount.inputToInitialDepositTextbox(initialDeposit);
@@ -219,6 +220,7 @@ public class User_12_Payment extends AbtractTest{
 	  
 	  log.info("Step-08: get text account id");
 	  accountId=newAccount.getTextAccountID();
+	  System.out.println(accountId);
 	}
 	
 	@Test
@@ -234,11 +236,14 @@ public class User_12_Payment extends AbtractTest{
 		
 		log.info("Step-04: edit choose diffrent item in account type dropdown ");
 		editAccount.selectItemInAccountTypeDropdown("Current");
+		
 		log.info("Step-05: click to submit button");
+		editAccount.clickToSubmitButton();
 		
 		log.info("Step-06: verify account type is 'Current'");
 		verifyEquals(editAccount.getTextAccountType(), "Current");
 	}
+	
 	
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {

@@ -124,36 +124,32 @@ public class UserEditCustomerPagePO extends AbtractPage{
 		senkeyToElement(driver, UserEditCustomerPageUI.CITY_TEXTBOX, Keys.TAB);
 	}
 	public void inputToDateOfBirth(String dateOfBirth) {
-		waitToElementVisible(driver, UserNewCustomerPageUI.DATE_OF_BIRTH_TEXTBOX);
-		senkeyToElement(driver, UserNewCustomerPageUI.DATE_OF_BIRTH_TEXTBOX, dateOfBirth);
+		waitToElementVisible(driver, UserEditCustomerPageUI.DATE_OF_BIRTH_TEXTBOX);
+		senkeyToElement(driver, UserEditCustomerPageUI.DATE_OF_BIRTH_TEXTBOX, dateOfBirth);
 	}
 	
-	public String getCustomerId() {
-		waitToElementVisible(driver, UserNewCustomerPageUI.CUSTOMER_ID_TEXT);
-		return getTextElement(driver, UserNewCustomerPageUI.CUSTOMER_ID_TEXT);
 	
-	}
 
 	public String getTextCustomerName() {
-		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_CUSTOMER_NAME);
-		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_CUSTOMER_NAME);
+		waitToElementVisible(driver, UserEditCustomerPageUI.GET_TEXT_CUSTOMER_NAME);
+		return getTextElement(driver, UserEditCustomerPageUI.GET_TEXT_CUSTOMER_NAME);
 	
 	}
 
 	public String getTextGender() {
-		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_GENDER);
-		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_GENDER);
+		waitToElementVisible(driver, UserEditCustomerPageUI.GET_TEXT_GENDER);
+		return getTextElement(driver, UserEditCustomerPageUI.GET_TEXT_GENDER);
 	}
 
 	public String getTextAddress() {
-		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_ADDRESS);
-		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_ADDRESS);
+		waitToElementVisible(driver, UserEditCustomerPageUI.GET_TEXT_ADDRESS);
+		return getTextElement(driver, UserEditCustomerPageUI.GET_TEXT_ADDRESS);
 	
 	}
 
 	public String getTextCity() {
-		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_CITY);
-		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_CITY);
+		waitToElementVisible(driver, UserEditCustomerPageUI.GET_TEXT_CITY);
+		return getTextElement(driver, UserEditCustomerPageUI.GET_TEXT_CITY);
 	
 	}
 
@@ -179,5 +175,10 @@ public class UserEditCustomerPagePO extends AbtractPage{
 		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_EMAIL);
 		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_EMAIL);
 	
+	}
+
+	public void clickToSubmitbutton() {
+		waitToElementClickable(driver, UserNewCustomerPageUI.SUBMIT_BUTTON);
+		clickToElement(driver, UserNewCustomerPageUI.SUBMIT_BUTTON);
 	}
 }

@@ -902,3 +902,102 @@
 [INFO ] [2021-08-24 12:46:09,489]  -------------------------- PASSED -------------------------- 
 [INFO ] [2021-08-24 12:46:09,495] OS name = windows 10
 [INFO ] [2021-08-24 12:46:10,420] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-25 17:12:12,800] Step-01: open new customer page
+[INFO ] [2021-08-25 17:12:13,327] Step-02: input to customer name textbox
+[INFO ] [2021-08-25 17:12:14,055] Step-03: click to  gender male radio button
+[INFO ] [2021-08-25 17:12:14,194] Step-04: input to day of birth textbox
+[INFO ] [2021-08-25 17:12:14,946] Step-05: input to address textbox
+[INFO ] [2021-08-25 17:12:15,678] Step-06: input to city textbox
+[INFO ] [2021-08-25 17:12:16,385] Step-07: input to state textbox
+[INFO ] [2021-08-25 17:12:17,089] Step-08: input to pin textbox
+[INFO ] [2021-08-25 17:12:17,798] Step-09: input to mobile number textbox
+[INFO ] [2021-08-25 17:12:18,509] Step-10: input to password textbox
+[INFO ] [2021-08-25 17:12:19,252] Step-11: input to password textbox
+[INFO ] [2021-08-25 17:12:19,945] Step-12: click to submit button
+[INFO ] [2021-08-25 17:12:21,036] Step-13: get Text customer id
+[INFO ] [2021-08-25 17:12:21,149] Step-14: verify text 'Customer Registered Successfully!!!' displayed
+[INFO ] [2021-08-25 17:12:21,227]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-25 17:12:21,227] Step-15: verify customer name
+[INFO ] [2021-08-25 17:12:21,290]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-25 17:12:21,290] Step-16: verify gender male
+[INFO ] [2021-08-25 17:12:21,375]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-08-25 17:12:21,421] Step-17: verify address
+[INFO ] [2021-08-25 17:12:21,544]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-25 17:12:21,544] Step-18: verify city
+[INFO ] [2021-08-25 17:12:21,606]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-25 17:12:21,606] Step-19: verify state
+[INFO ] [2021-08-25 17:12:21,675]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-25 17:12:21,675] Step-20: verify pin
+[INFO ] [2021-08-25 17:12:21,736]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-25 17:12:21,736] Step-21: verify mobile number
+[INFO ] [2021-08-25 17:12:21,814]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-25 17:12:21,814] Step-22: verify mobile number
+[INFO ] [2021-08-25 17:12:21,907]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-25 17:12:22,061] Step-01: open edit account page
+[INFO ] [2021-08-25 17:12:22,093] OS name = windows 10
+[INFO ] [2021-08-25 17:12:23,030] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-25 17:13:58,574] Step-01: open new account page
+[INFO ] [2021-08-25 17:13:58,784] Step-01: open edit account page
+[INFO ] [2021-08-25 17:13:58,797] OS name = windows 10
+[INFO ] [2021-08-25 17:13:59,731] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-25 17:19:03,882] Step-01: open new account page
+[INFO ] [2021-08-25 17:19:04,369] Step-02: input to Customer id texbox
+[INFO ] [2021-08-25 17:19:05,148] Step-03: select item in Account type dropdown
+[INFO ] [2021-08-25 17:19:35,560] Step-01: open edit account page
+[INFO ] [2021-08-25 17:19:36,409] Step-02: input to account no textbox
+[INFO ] [2021-08-25 17:19:37,072] OS name = windows 10
+[INFO ] [2021-08-25 17:19:37,989] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-25 17:20:31,746] Step-01: open new account page
+[INFO ] [2021-08-25 17:20:32,226] Step-02: input to Customer id texbox
+[INFO ] [2021-08-25 17:20:32,962] Step-03: select item in Account type dropdown
+[INFO ] [2021-08-25 17:20:33,187] Step-04: input to Initial deposit text box
+[INFO ] [2021-08-25 17:20:33,942] Step-05: click to submit button
+[INFO ] [2021-08-25 17:21:04,235] Step-01: open edit account page
+[INFO ] [2021-08-25 17:21:05,351] Step-02: input to account no textbox
+[INFO ] [2021-08-25 17:21:06,072] OS name = windows 10
+[INFO ] [2021-08-25 17:21:06,990] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-25 17:22:29,610] Step-01: open new account page
+[INFO ] [2021-08-25 17:22:30,096] Step-02: input to Customer id texbox
+[INFO ] [2021-08-25 17:22:30,848] Step-03: select item in Account type dropdown
+[INFO ] [2021-08-25 17:22:31,021] Step-04: input to Initial deposit text box
+[INFO ] [2021-08-25 17:22:31,723] Step-05: click to submit button
+[INFO ] [2021-08-25 17:22:32,952] Step-06: verify message success 'Account Generated Successfully!!!' displayed
+[INFO ] [2021-08-25 17:22:33,040]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-25 17:22:33,040] Step-07: verify text  Current Amount equal initial Deposit
+[INFO ] [2021-08-25 17:22:33,125]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-25 17:22:33,125] Step-08: get text account id
+[INFO ] [2021-08-25 17:22:33,456] Step-01: open edit account page
+[INFO ] [2021-08-25 17:22:34,188] Step-02: input to account no textbox
+[INFO ] [2021-08-25 17:22:34,885] Step-03: click to submit button 
+[INFO ] [2021-08-25 17:22:35,904] Step-04: edit choose diffrent item in account type dropdown 
+[INFO ] [2021-08-25 17:23:05,973] OS name = windows 10
+[INFO ] [2021-08-25 17:23:06,839] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-25 17:25:30,984] Step-01: open edit account page
+[INFO ] [2021-08-25 17:25:31,824] Step-02: input to account no textbox
+[INFO ] [2021-08-25 17:25:32,532] Step-03: click to submit button 
+[INFO ] [2021-08-25 17:25:33,602] Step-04: edit choose diffrent item in account type dropdown 
+[INFO ] [2021-08-25 17:26:03,971] OS name = windows 10
+[INFO ] [2021-08-25 17:26:05,034] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-25 17:26:49,722] Step-01: open edit account page
+[INFO ] [2021-08-25 17:26:50,467] Step-02: input to account no textbox
+[INFO ] [2021-08-25 17:26:51,245] Step-03: click to submit button 
+[INFO ] [2021-08-25 17:26:52,303] Step-04: edit choose diffrent item in account type dropdown 
+[INFO ] [2021-08-25 17:27:22,622] OS name = windows 10
+[INFO ] [2021-08-25 17:27:23,933] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-25 17:27:42,641] Step-01: open edit account page
+[INFO ] [2021-08-25 17:27:43,406] Step-02: input to account no textbox
+[INFO ] [2021-08-25 17:27:44,151] Step-03: click to submit button 
+[INFO ] [2021-08-25 17:27:45,188] Step-04: edit choose diffrent item in account type dropdown 
+[INFO ] [2021-08-25 17:27:45,389] Step-05: click to submit button
+[INFO ] [2021-08-25 17:27:45,389] Step-06: verify account type is 'Current'
+[INFO ] [2021-08-25 17:28:15,680] OS name = windows 10
+[INFO ] [2021-08-25 17:28:16,632] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-25 17:29:34,962] Step-01: open edit account page
+[INFO ] [2021-08-25 17:29:35,993] Step-02: input to account no textbox
+[INFO ] [2021-08-25 17:29:36,709] Step-03: click to submit button 
+[INFO ] [2021-08-25 17:29:37,486] Step-04: edit choose diffrent item in account type dropdown 
+[INFO ] [2021-08-25 17:29:37,695] Step-05: click to submit button
+[INFO ] [2021-08-25 17:29:38,755] Step-06: verify account type is 'Current'
+[INFO ] [2021-08-25 17:29:38,836]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-25 17:29:39,299] OS name = windows 10
+[INFO ] [2021-08-25 17:29:40,612] ---------- QUIT BROWSER SUCCESS ----------
