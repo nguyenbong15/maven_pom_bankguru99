@@ -40,4 +40,7 @@ public class PageGenerator {
 	public static UserCustomisedStatementPagePO getCustomisedStatmentPage(WebDriver driver) {
 		return new UserCustomisedStatementPagePO(driver);
 	}
+	public static UserDepositPagePO getDepositPage(WebDriver driver) {
+		return new UserDepositPagePO(driver);
+	}
 }

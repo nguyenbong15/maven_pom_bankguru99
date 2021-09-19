@@ -19,6 +19,7 @@ import pageObjectUser.UserChangePasswordPagePO;
 import pageObjectUser.UserCustomisedStatementPagePO;
 import pageObjectUser.UserDeleteAccountPagePO;
 import pageObjectUser.UserDeleteCustomerPagePO;
+import pageObjectUser.UserDepositPagePO;
 import pageObjectUser.UserEditAccountPagePO;
 import pageObjectUser.UserEditCustomerPagePO;
 import pageObjectUser.UserFundTransferPagePO;
@@ -409,6 +410,11 @@ public class AbtractPage {
 		waitToElementClickable(driver, AbtractPageUI.CUSTOMISED_STATEMENT_LINK);
 		clickToElement(driver, AbtractPageUI.CUSTOMISED_STATEMENT_LINK);
 		return PageGenerator.getCustomisedStatmentPage(driver);
+	}
+	public UserDepositPagePO openDepositPage(WebDriver driver) {
+		waitToElementClickable(driver, AbtractPageUI.DEPOSIT_LINK);
+		clickToElement(driver, AbtractPageUI.DEPOSIT_LINK);
+		return PageGenerator.getDepositPage(driver);
 	}
 
 	

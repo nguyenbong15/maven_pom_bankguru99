@@ -11,4 +11,5 @@ public class AbtractPageUI {
 	public static final String CHANGE_PASSWORD_LINK = "//a[text()='Change Password']";
 	public static final String CUSTOMISED_STATEMENT_LINK = "//a[text()='Customised Statement']";
 	public static final String FUND_TRANSFER_LINK = "//a[text()='Fund Transfer']";
+	public static final String DEPOSIT_LINK = "//a[text()='Deposit']";
 }

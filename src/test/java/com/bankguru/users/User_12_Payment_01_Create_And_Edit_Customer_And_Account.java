@@ -23,17 +23,17 @@ public class User_12_Payment_01_Create_And_Edit_Customer_And_Account extends Abt
 	UserEditCustomerPagePO editCustomer;
 	UserNewAccountPagePO newAccount;
 	UserEditAccountPagePO editAccount;
-	String dateOfBirth,customername,address,city,state,pin,phoneNumber,password,email,customerid;
+	String dateOfBirth,customername,address,city,state,pin,phoneNumber,password,email;
 	String editdateOfBirth,editcustomername,editaddress,editcity,editstate,editpin,editphoneNumber
 	,editpassword,editemail;
-	String initialDeposit,accountId;
+	public static String customerid,accountId,initialDeposit;
 	@Parameters(value= {"browser","url"})
 	@BeforeClass
 	public void beforeClass(String brower,String url) {
 		driver = getBrowserName(brower, url);
 		loginPage=PageGenerator.getCommonLoginPage(driver);
 //		managerPage=loginPage.loginToSystem(Common_01_Login_Page.userid,Common_01_Login_Page.password);
-		managerPage=loginPage.loginToSystem("mngr348463","nUsajEh");
+		managerPage=loginPage.loginToSystem("mngr354393","ubynuqy");
 		customername="Petter";
 	    dateOfBirth="01/01/2000";
 	    address="12HoangTrung";

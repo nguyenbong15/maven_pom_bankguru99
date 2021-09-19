@@ -12,7 +12,7 @@
 		<parameter name="url" value="http://demo.guru99.com/v4/" />
 		<classes>
 		<!-- 	<class name="com.bankguru.commons.Common_01_Login_Page" /> -->
-			<class name="com.bankguru.users.User_12_Payment" />
+			<class name="com.bankguru.users.User_13_Payment_02_Transfer_Money" />
 		</classes>
 
 	</test>
