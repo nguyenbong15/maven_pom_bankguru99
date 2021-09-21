@@ -42,4 +42,6 @@ public class UserDepositPagePO extends AbtractPage {
 		return getTextElement(driver, UserDepositPageUI.TEXT_CURRENT_AMOUNT);
 	}
 
+	
+
 }

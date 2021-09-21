@@ -54,7 +54,7 @@ public class User_12_Payment_01_Create_And_Edit_Customer_And_Account extends Abt
 	    editpassword="234567";
 	    editemail="Nam@gmail.com";
 	    
-	    initialDeposit="50000";
+	    initialDeposit="200000";
 	    customerid="69888";
 	    accountId="96313";
 	}
@@ -131,7 +131,7 @@ public class User_12_Payment_01_Create_And_Edit_Customer_And_Account extends Abt
 		
 	}
 	
-	@Test(dependsOnMethods = "TC_01_Create_New_Customer_And_Verify")
+	//@Test
     public void TC_02_Edit_Customer_And_Verify() {
 		log.info("Step-01: open edit customer page");
 		editCustomer=newCustomer.openEditCustomerPage(driver);
@@ -196,15 +196,15 @@ public class User_12_Payment_01_Create_And_Edit_Customer_And_Account extends Abt
 	
 	@Test
     public void TC_03_New_Account_And_Verify() {
-		
+	  editCustomer=newCustomer.openEditCustomerPage(driver);
 	  log.info("Step-01: open new account page");
 	  newAccount=editCustomer.openNewAccountPage(driver);
 	  
 	  log.info("Step-02: input to Customer id texbox");
 	  newAccount.inputToCustomerIdTextbox(customerid);
 	  
-	  log.info("Step-03: select item in Account type dropdown");
-	  newAccount.selecItemInAccountTypeDropDown("Savings");
+//	  log.info("Step-03: select item in Account type dropdown");
+//	  newAccount.selecItemInAccountTypeDropDown("Savings");
 	  
 	  log.info("Step-04: input to Initial deposit text box");
 	  newAccount.inputToInitialDepositTextbox(initialDeposit);
@@ -223,7 +223,7 @@ public class User_12_Payment_01_Create_And_Edit_Customer_And_Account extends Abt
 	  System.out.println(accountId);
 	}
 	
-	@Test
+	//@Test
 	public void TC_04_Edit_Account_And_Verify() {
 		log.info("Step-01: open edit account page");
 		editAccount=newAccount.openEditAccountPage(driver);

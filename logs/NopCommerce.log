@@ -1001,3 +1001,507 @@
 [INFO ] [2021-08-25 17:29:38,836]  -------------------------- PASSED -------------------------- 
 [INFO ] [2021-08-25 17:29:39,299] OS name = windows 10
 [INFO ] [2021-08-25 17:29:40,612] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-19 14:15:19,380] Step-01: open deposit page
+[INFO ] [2021-09-19 14:15:20,104] Step-02: input to account no textbox with text '97919'
+[INFO ] [2021-09-19 14:15:20,373] OS name = windows 10
+[INFO ] [2021-09-19 14:15:21,741] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-19 14:16:15,581] Step-01: open deposit page
+[INFO ] [2021-09-19 14:16:16,278] Step-02: input to account no textbox with text '97919'
+[INFO ] [2021-09-19 14:16:16,990] Step-03: input to amount textbox with text '7000'
+[INFO ] [2021-09-19 14:16:17,695] Step-04: input to description textbox with text 'deposit'
+[INFO ] [2021-09-19 14:16:18,401] Step-05: click to submit button
+[INFO ] [2021-09-19 14:16:19,380] Step-06: verify message sucessfuly displayed
+[INFO ] [2021-09-19 14:16:19,468]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-19 14:16:19,468] Step-07: verify current amount equal 20000
+[INFO ] [2021-09-19 14:16:19,544]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-19 14:16:19,799] OS name = windows 10
+[INFO ] [2021-09-19 14:16:20,828] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 10:59:46,343] Step-01: open deposit page
+[INFO ] [2021-09-21 10:59:46,702] OS name = windows 10
+[INFO ] [2021-09-21 10:59:47,735] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 11:00:20,072] OS name = windows 10
+[INFO ] [2021-09-21 11:00:20,074] 
+[INFO ] [2021-09-21 11:00:42,473] Step-01: open deposit page
+[INFO ] [2021-09-21 11:01:12,737] OS name = windows 10
+[INFO ] [2021-09-21 11:01:13,561] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 11:02:10,230] Step-01: open deposit page
+[INFO ] [2021-09-21 11:02:11,434] Step-02: input to account no textbox with text '97919'
+[INFO ] [2021-09-21 11:02:12,147] Step-03: input to amount textbox with text '10000'
+[INFO ] [2021-09-21 11:02:12,869] Step-04: input to description textbox with text 'withdraw 10000 money'
+[INFO ] [2021-09-21 11:02:13,583] Step-05: click to submit button
+[INFO ] [2021-09-21 11:02:14,545] Step-06: verify message sucessfuly displayed
+[INFO ] [2021-09-21 11:02:14,640]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-09-21 11:02:14,643] Step-07: verify current amount equal 10000
+[INFO ] [2021-09-21 11:02:14,726]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-09-21 11:02:14,976] OS name = windows 10
+[INFO ] [2021-09-21 11:02:16,393] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 11:06:06,118] Step-01: open deposit page
+[INFO ] [2021-09-21 11:06:06,848] Step-02: input to account no textbox with text '97919'
+[INFO ] [2021-09-21 11:06:07,564] Step-03: input to amount textbox with text '3000'
+[INFO ] [2021-09-21 11:06:08,293] Step-04: input to description textbox with text 'withdraw 3000 money'
+[INFO ] [2021-09-21 11:06:09,017] Step-05: click to submit button
+[INFO ] [2021-09-21 11:06:09,734] Step-06: verify message sucessfuly displayed
+[INFO ] [2021-09-21 11:06:09,824]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 11:06:09,824] Step-07: verify current amount equal 10000
+[INFO ] [2021-09-21 11:06:09,896]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-09-21 11:06:10,119] OS name = windows 10
+[INFO ] [2021-09-21 11:06:11,044] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 12:04:03,939] Step-01: open new customer page
+[INFO ] [2021-09-21 12:04:04,452] Step-02: input to customer name textbox
+[INFO ] [2021-09-21 12:04:05,231] Step-03: click to  gender male radio button
+[INFO ] [2021-09-21 12:04:05,367] Step-04: input to day of birth textbox
+[INFO ] [2021-09-21 12:04:06,121] Step-05: input to address textbox
+[INFO ] [2021-09-21 12:04:06,853] Step-06: input to city textbox
+[INFO ] [2021-09-21 12:04:07,552] Step-07: input to state textbox
+[INFO ] [2021-09-21 12:04:08,331] Step-08: input to pin textbox
+[INFO ] [2021-09-21 12:04:09,043] Step-09: input to mobile number textbox
+[INFO ] [2021-09-21 12:04:09,742] Step-10: input to password textbox
+[INFO ] [2021-09-21 12:04:10,471] Step-11: input to password textbox
+[INFO ] [2021-09-21 12:04:11,143] Step-12: click to submit button
+[INFO ] [2021-09-21 12:04:12,130] Step-13: get Text customer id
+[INFO ] [2021-09-21 12:04:12,211] Step-14: verify text 'Customer Registered Successfully!!!' displayed
+[INFO ] [2021-09-21 12:04:12,303]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:04:12,303] Step-15: verify customer name
+[INFO ] [2021-09-21 12:04:12,399]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:04:12,399] Step-16: verify gender male
+[INFO ] [2021-09-21 12:04:12,479]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:04:12,479] Step-17: verify address
+[INFO ] [2021-09-21 12:04:12,553]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:04:12,554] Step-18: verify city
+[INFO ] [2021-09-21 12:04:12,633]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:04:12,634] Step-19: verify state
+[INFO ] [2021-09-21 12:04:12,712]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:04:12,713] Step-20: verify pin
+[INFO ] [2021-09-21 12:04:12,787]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:04:12,787] Step-21: verify mobile number
+[INFO ] [2021-09-21 12:04:12,853]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:04:12,853] Step-22: verify mobile number
+[INFO ] [2021-09-21 12:04:12,948]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:04:13,168] Step-01: open new account page
+[INFO ] [2021-09-21 12:04:13,211] Step-01: open edit account page
+[INFO ] [2021-09-21 12:04:13,229] Step-01: open edit customer page
+[INFO ] [2021-09-21 12:04:13,964] Step-02: input to customer id textbox
+[INFO ] [2021-09-21 12:04:14,687] Step-03: click to submit button
+[INFO ] [2021-09-21 12:04:15,443] Step-04: edit custommer name textbox
+[INFO ] [2021-09-21 12:04:15,607] OS name = windows 10
+[INFO ] [2021-09-21 12:04:16,703] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 12:04:23,114] Step-01: open deposit page
+[INFO ] [2021-09-21 12:04:23,837] Step-02: input to account no textbox with text '97919'
+[INFO ] [2021-09-21 12:04:24,545] Step-03: input to amount textbox with text '7000'
+[INFO ] [2021-09-21 12:04:25,263] Step-04: input to description textbox with text 'deposit'
+[INFO ] [2021-09-21 12:04:25,979] Step-05: click to submit button
+[INFO ] [2021-09-21 12:04:26,715] Step-06: verify message sucessfuly displayed
+[INFO ] [2021-09-21 12:04:27,961] Step-01: open deposit page
+[INFO ] [2021-09-21 12:04:28,711] Step-02: input to account no textbox with text '97919'
+[INFO ] [2021-09-21 12:04:29,452] Step-03: input to amount textbox with text '7000'
+[INFO ] [2021-09-21 12:04:30,141] Step-04: input to description textbox with text 'withdraw 3000 money'
+[INFO ] [2021-09-21 12:04:30,859] Step-05: click to submit button
+[INFO ] [2021-09-21 12:04:31,306] Step-06: verify message sucessfuly displayed
+[INFO ] [2021-09-21 12:04:31,339] Step-01: open new account page
+[INFO ] [2021-09-21 12:04:32,404] Step-02: input to Customer id texbox
+[INFO ] [2021-09-21 12:04:33,119] Step-03: select item in Account type dropdown
+[INFO ] [2021-09-21 12:05:03,202] Step-01: open Balance Enquiry page
+[INFO ] [2021-09-21 12:05:03,210] OS name = windows 10
+[INFO ] [2021-09-21 12:05:04,031] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 12:07:24,808] Step-01: open new customer page
+[INFO ] [2021-09-21 12:07:25,322] Step-02: input to customer name textbox
+[INFO ] [2021-09-21 12:07:26,097] Step-03: click to  gender male radio button
+[INFO ] [2021-09-21 12:07:26,231] Step-04: input to day of birth textbox
+[INFO ] [2021-09-21 12:07:27,007] Step-05: input to address textbox
+[INFO ] [2021-09-21 12:07:27,740] Step-06: input to city textbox
+[INFO ] [2021-09-21 12:07:28,466] Step-07: input to state textbox
+[INFO ] [2021-09-21 12:07:29,157] Step-08: input to pin textbox
+[INFO ] [2021-09-21 12:07:29,869] Step-09: input to mobile number textbox
+[INFO ] [2021-09-21 12:07:30,565] Step-10: input to password textbox
+[INFO ] [2021-09-21 12:07:31,320] Step-11: input to password textbox
+[INFO ] [2021-09-21 12:07:32,014] Step-12: click to submit button
+[INFO ] [2021-09-21 12:07:33,030] Step-13: get Text customer id
+[INFO ] [2021-09-21 12:07:33,105] Step-14: verify text 'Customer Registered Successfully!!!' displayed
+[INFO ] [2021-09-21 12:07:33,184]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:07:33,184] Step-15: verify customer name
+[INFO ] [2021-09-21 12:07:33,242]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:07:33,242] Step-16: verify gender male
+[INFO ] [2021-09-21 12:07:33,322]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:07:33,322] Step-17: verify address
+[INFO ] [2021-09-21 12:07:33,399]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:07:33,400] Step-18: verify city
+[INFO ] [2021-09-21 12:07:33,476]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:07:33,476] Step-19: verify state
+[INFO ] [2021-09-21 12:07:33,554]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:07:33,555] Step-20: verify pin
+[INFO ] [2021-09-21 12:07:33,631]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:07:33,631] Step-21: verify mobile number
+[INFO ] [2021-09-21 12:07:33,710]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:07:33,710] Step-22: verify mobile number
+[INFO ] [2021-09-21 12:07:33,788]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:07:34,001] Step-01: open edit customer page
+[INFO ] [2021-09-21 12:07:34,720] Step-02: input to customer id textbox
+[INFO ] [2021-09-21 12:07:35,454] Step-03: click to submit button
+[INFO ] [2021-09-21 12:07:36,219] Step-04: edit custommer name textbox
+[INFO ] [2021-09-21 12:07:36,360] Step-01: open new account page
+[INFO ] [2021-09-21 12:07:36,858] Step-02: input to Customer id texbox
+[INFO ] [2021-09-21 12:07:37,594] Step-03: select item in Account type dropdown
+[INFO ] [2021-09-21 12:08:07,681] Step-01: open edit account page
+[INFO ] [2021-09-21 12:08:08,506] Step-02: input to account no textbox
+[INFO ] [2021-09-21 12:08:09,271] Step-03: click to submit button 
+[INFO ] [2021-09-21 12:08:09,740] Step-04: edit choose diffrent item in account type dropdown 
+[INFO ] [2021-09-21 12:08:09,766] OS name = windows 10
+[INFO ] [2021-09-21 12:08:11,168] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 12:10:16,510] Step-01: open new customer page
+[INFO ] [2021-09-21 12:10:17,102] Step-02: input to customer name textbox
+[INFO ] [2021-09-21 12:10:17,841] Step-03: click to  gender male radio button
+[INFO ] [2021-09-21 12:10:17,986] Step-04: input to day of birth textbox
+[INFO ] [2021-09-21 12:10:18,679] Step-05: input to address textbox
+[INFO ] [2021-09-21 12:10:19,389] Step-06: input to city textbox
+[INFO ] [2021-09-21 12:10:20,074] Step-07: input to state textbox
+[INFO ] [2021-09-21 12:10:20,789] Step-08: input to pin textbox
+[INFO ] [2021-09-21 12:10:21,561] Step-09: input to mobile number textbox
+[INFO ] [2021-09-21 12:10:22,284] Step-10: input to password textbox
+[INFO ] [2021-09-21 12:10:23,045] Step-11: input to password textbox
+[INFO ] [2021-09-21 12:10:23,772] Step-12: click to submit button
+[INFO ] [2021-09-21 12:10:24,830] Step-13: get Text customer id
+[INFO ] [2021-09-21 12:10:24,915] Step-14: verify text 'Customer Registered Successfully!!!' displayed
+[INFO ] [2021-09-21 12:10:24,980]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:10:24,981] Step-15: verify customer name
+[INFO ] [2021-09-21 12:10:25,054]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:10:25,054] Step-16: verify gender male
+[INFO ] [2021-09-21 12:10:25,117]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:10:25,117] Step-17: verify address
+[INFO ] [2021-09-21 12:10:25,195]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:10:25,196] Step-18: verify city
+[INFO ] [2021-09-21 12:10:25,274]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:10:25,275] Step-19: verify state
+[INFO ] [2021-09-21 12:10:25,351]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:10:25,352] Step-20: verify pin
+[INFO ] [2021-09-21 12:10:25,431]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:10:25,432] Step-21: verify mobile number
+[INFO ] [2021-09-21 12:10:25,506]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:10:25,506] Step-22: verify mobile number
+[INFO ] [2021-09-21 12:10:25,614]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:10:26,587] Step-01: open new account page
+[INFO ] [2021-09-21 12:10:27,067] Step-02: input to Customer id texbox
+[INFO ] [2021-09-21 12:10:27,804] Step-03: select item in Account type dropdown
+[INFO ] [2021-09-21 12:10:57,897] OS name = windows 10
+[INFO ] [2021-09-21 12:10:58,782] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 12:11:48,276] Step-01: open new customer page
+[INFO ] [2021-09-21 12:11:48,744] Step-02: input to customer name textbox
+[INFO ] [2021-09-21 12:11:49,513] Step-03: click to  gender male radio button
+[INFO ] [2021-09-21 12:11:49,671] Step-04: input to day of birth textbox
+[INFO ] [2021-09-21 12:11:50,384] Step-05: input to address textbox
+[INFO ] [2021-09-21 12:11:51,126] Step-06: input to city textbox
+[INFO ] [2021-09-21 12:11:51,853] Step-07: input to state textbox
+[INFO ] [2021-09-21 12:11:52,551] Step-08: input to pin textbox
+[INFO ] [2021-09-21 12:11:53,262] Step-09: input to mobile number textbox
+[INFO ] [2021-09-21 12:11:53,972] Step-10: input to password textbox
+[INFO ] [2021-09-21 12:11:54,702] Step-11: input to password textbox
+[INFO ] [2021-09-21 12:11:55,379] Step-12: click to submit button
+[INFO ] [2021-09-21 12:11:56,765] Step-13: get Text customer id
+[INFO ] [2021-09-21 12:11:56,847] Step-14: verify text 'Customer Registered Successfully!!!' displayed
+[INFO ] [2021-09-21 12:11:56,914]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:11:56,914] Step-15: verify customer name
+[INFO ] [2021-09-21 12:11:56,975]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:11:56,975] Step-16: verify gender male
+[INFO ] [2021-09-21 12:11:57,050]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:11:57,050] Step-17: verify address
+[INFO ] [2021-09-21 12:11:57,129]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:11:57,130] Step-18: verify city
+[INFO ] [2021-09-21 12:11:57,206]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:11:57,206] Step-19: verify state
+[INFO ] [2021-09-21 12:11:57,282]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:11:57,282] Step-20: verify pin
+[INFO ] [2021-09-21 12:11:57,360]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:11:57,360] Step-21: verify mobile number
+[INFO ] [2021-09-21 12:11:57,438]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:11:57,439] Step-22: verify mobile number
+[INFO ] [2021-09-21 12:11:57,544]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:11:58,500] Step-01: open new account page
+[INFO ] [2021-09-21 12:11:58,982] Step-02: input to Customer id texbox
+[INFO ] [2021-09-21 12:11:59,695] Step-04: input to Initial deposit text box
+[INFO ] [2021-09-21 12:12:00,412] Step-05: click to submit button
+[INFO ] [2021-09-21 12:12:01,437] Step-06: verify message success 'Account Generated Successfully!!!' displayed
+[INFO ] [2021-09-21 12:12:01,517]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:12:01,517] Step-07: verify text  Current Amount equal initial Deposit
+[INFO ] [2021-09-21 12:12:01,594]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:12:01,594] Step-08: get text account id
+[INFO ] [2021-09-21 12:12:01,680] OS name = windows 10
+[INFO ] [2021-09-21 12:12:02,545] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 12:12:09,304] Step-01: open deposit page
+[INFO ] [2021-09-21 12:12:10,273] Step-02: input to account no textbox with text '97919'
+[INFO ] [2021-09-21 12:12:11,006] Step-03: input to amount textbox with text '7000'
+[INFO ] [2021-09-21 12:12:11,715] Step-04: input to description textbox with text 'deposit'
+[INFO ] [2021-09-21 12:12:12,398] Step-05: click to submit button
+[INFO ] [2021-09-21 12:12:13,363] Step-06: verify message sucessfuly displayed
+[INFO ] [2021-09-21 12:12:13,449]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-09-21 12:12:13,449] Step-07: verify current amount equal 250000
+[INFO ] [2021-09-21 12:12:13,528]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:12:13,542] Step-01: open deposit page
+[INFO ] [2021-09-21 12:12:14,242] Step-02: input to account no textbox with text '97919'
+[INFO ] [2021-09-21 12:12:14,961] Step-03: input to amount textbox with text '7000'
+[INFO ] [2021-09-21 12:12:15,625] Step-04: input to description textbox with text 'withdraw 3000 money'
+[INFO ] [2021-09-21 12:12:16,327] Step-05: click to submit button
+[INFO ] [2021-09-21 12:12:17,399] Step-06: verify message sucessfuly displayed
+[INFO ] [2021-09-21 12:12:17,464]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:12:17,465] Step-07: verify current amount equal 200000
+[INFO ] [2021-09-21 12:12:17,526]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:12:17,534] Step-01: open new account page
+[INFO ] [2021-09-21 12:12:18,004] Step-02: input to Customer id texbox
+[INFO ] [2021-09-21 12:12:18,728] Step-03: select item in Account type dropdown
+[INFO ] [2021-09-21 12:12:48,841] Step-01: open Balance Enquiry page
+[INFO ] [2021-09-21 12:12:48,848] OS name = windows 10
+[INFO ] [2021-09-21 12:12:49,720] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 12:14:12,950] Step-01: open new customer page
+[INFO ] [2021-09-21 12:14:13,419] Step-02: input to customer name textbox
+[INFO ] [2021-09-21 12:14:14,189] Step-03: click to  gender male radio button
+[INFO ] [2021-09-21 12:14:14,319] Step-04: input to day of birth textbox
+[INFO ] [2021-09-21 12:14:15,072] Step-05: input to address textbox
+[INFO ] [2021-09-21 12:14:15,878] Step-06: input to city textbox
+[INFO ] [2021-09-21 12:14:16,605] Step-07: input to state textbox
+[INFO ] [2021-09-21 12:14:17,313] Step-08: input to pin textbox
+[INFO ] [2021-09-21 12:14:18,024] Step-09: input to mobile number textbox
+[INFO ] [2021-09-21 12:14:18,717] Step-10: input to password textbox
+[INFO ] [2021-09-21 12:14:19,473] Step-11: input to password textbox
+[INFO ] [2021-09-21 12:14:20,155] Step-12: click to submit button
+[INFO ] [2021-09-21 12:14:21,196] Step-13: get Text customer id
+[INFO ] [2021-09-21 12:14:21,306] Step-14: verify text 'Customer Registered Successfully!!!' displayed
+[INFO ] [2021-09-21 12:14:21,382]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:21,382] Step-15: verify customer name
+[INFO ] [2021-09-21 12:14:21,441]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:21,441] Step-16: verify gender male
+[INFO ] [2021-09-21 12:14:21,504]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:21,504] Step-17: verify address
+[INFO ] [2021-09-21 12:14:21,582]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:21,582] Step-18: verify city
+[INFO ] [2021-09-21 12:14:21,661]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:21,661] Step-19: verify state
+[INFO ] [2021-09-21 12:14:21,738]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:21,739] Step-20: verify pin
+[INFO ] [2021-09-21 12:14:21,817]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:21,817] Step-21: verify mobile number
+[INFO ] [2021-09-21 12:14:21,895]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:21,896] Step-22: verify mobile number
+[INFO ] [2021-09-21 12:14:21,974]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:22,911] Step-01: open new account page
+[INFO ] [2021-09-21 12:14:23,384] Step-02: input to Customer id texbox
+[INFO ] [2021-09-21 12:14:24,077] Step-04: input to Initial deposit text box
+[INFO ] [2021-09-21 12:14:24,786] Step-05: click to submit button
+[INFO ] [2021-09-21 12:14:25,826] Step-06: verify message success 'Account Generated Successfully!!!' displayed
+[INFO ] [2021-09-21 12:14:25,904]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:25,904] Step-07: verify text  Current Amount equal initial Deposit
+[INFO ] [2021-09-21 12:14:25,987]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:25,987] Step-08: get text account id
+[INFO ] [2021-09-21 12:14:26,067] OS name = windows 10
+[INFO ] [2021-09-21 12:14:26,985] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 12:14:33,852] Step-01: open deposit page
+[INFO ] [2021-09-21 12:14:34,540] Step-02: input to account no textbox with text '97919'
+[INFO ] [2021-09-21 12:14:35,239] Step-03: input to amount textbox with text '7000'
+[INFO ] [2021-09-21 12:14:35,917] Step-04: input to description textbox with text 'deposit'
+[INFO ] [2021-09-21 12:14:36,602] Step-05: click to submit button
+[INFO ] [2021-09-21 12:14:37,335] Step-06: verify message sucessfuly displayed
+[INFO ] [2021-09-21 12:14:37,420]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:37,420] Step-07: verify current amount equal 250000
+[INFO ] [2021-09-21 12:14:37,480]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:37,513] Step-01: open deposit page
+[INFO ] [2021-09-21 12:14:38,355] Step-02: input to account no textbox with text '97919'
+[INFO ] [2021-09-21 12:14:39,051] Step-03: input to amount textbox with text '7000'
+[INFO ] [2021-09-21 12:14:39,767] Step-04: input to description textbox with text 'withdraw 3000 money'
+[INFO ] [2021-09-21 12:14:40,516] Step-05: click to submit button
+[INFO ] [2021-09-21 12:14:41,741] Step-06: verify message sucessfuly displayed
+[INFO ] [2021-09-21 12:14:41,808]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:41,809] Step-07: verify current amount equal 200000
+[INFO ] [2021-09-21 12:14:41,871]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:41,899] Step-01: open new account page
+[INFO ] [2021-09-21 12:14:42,372] Step-02: input to Customer id texbox
+[INFO ] [2021-09-21 12:14:43,087] Step-04: input to Initial deposit text box
+[INFO ] [2021-09-21 12:14:43,775] Step-05: click to submit button
+[INFO ] [2021-09-21 12:14:44,847] Step-06: verify message success 'Account Generated Successfully!!!' displayed
+[INFO ] [2021-09-21 12:14:44,929]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:44,930] Step-07: verify text  Current Amount equal initial Deposit
+[INFO ] [2021-09-21 12:14:45,005]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-09-21 12:14:45,006] Step-08: get text account id
+[INFO ] [2021-09-21 12:14:45,082] Step-09: open fund transfer page
+[INFO ] [2021-09-21 12:14:46,138] Step-10: input to payer account no textbox 
+[INFO ] [2021-09-21 12:14:46,893] Step-11: input to payee  account no textbox 
+[INFO ] [2021-09-21 12:14:47,637] Step-12: input to description textbox with text 'withdraw 3000 money'
+[INFO ] [2021-09-21 12:14:48,314] Step-13: click to submit button
+[INFO ] [2021-09-21 12:14:48,477] Step-14: verify message sucessfuly displayed
+[INFO ] [2021-09-21 12:14:48,539] Step-01: open Balance Enquiry page
+[INFO ] [2021-09-21 12:14:49,844] Step-02: input to account no textbox
+[INFO ] [2021-09-21 12:14:50,557] Step-03: click to submit button
+[INFO ] [2021-09-21 12:14:52,365] Step-04: get title table and verify 
+[INFO ] [2021-09-21 12:14:52,437]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:14:52,437] Step-05: get title table and verify amount of curren account 
+[INFO ] [2021-09-21 12:14:52,500]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-09-21 12:14:52,505] OS name = windows 10
+[INFO ] [2021-09-21 12:14:53,327] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 12:19:45,345] Step-01: open new customer page
+[INFO ] [2021-09-21 12:19:45,904] Step-02: input to customer name textbox
+[INFO ] [2021-09-21 12:19:46,671] Step-03: click to  gender male radio button
+[INFO ] [2021-09-21 12:19:46,805] Step-04: input to day of birth textbox
+[INFO ] [2021-09-21 12:19:47,540] Step-05: input to address textbox
+[INFO ] [2021-09-21 12:19:48,266] Step-06: input to city textbox
+[INFO ] [2021-09-21 12:19:48,945] Step-07: input to state textbox
+[INFO ] [2021-09-21 12:19:49,654] Step-08: input to pin textbox
+[INFO ] [2021-09-21 12:19:50,369] Step-09: input to mobile number textbox
+[INFO ] [2021-09-21 12:19:51,076] Step-10: input to password textbox
+[INFO ] [2021-09-21 12:19:51,806] Step-11: input to password textbox
+[INFO ] [2021-09-21 12:19:52,478] Step-12: click to submit button
+[INFO ] [2021-09-21 12:19:53,627] Step-13: get Text customer id
+[INFO ] [2021-09-21 12:19:53,697] Step-14: verify text 'Customer Registered Successfully!!!' displayed
+[INFO ] [2021-09-21 12:19:53,762]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:19:53,762] Step-15: verify customer name
+[INFO ] [2021-09-21 12:19:53,821]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:19:53,821] Step-16: verify gender male
+[INFO ] [2021-09-21 12:19:53,898]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:19:53,898] Step-17: verify address
+[INFO ] [2021-09-21 12:19:53,961]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:19:53,961] Step-18: verify city
+[INFO ] [2021-09-21 12:19:54,037]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:19:54,038] Step-19: verify state
+[INFO ] [2021-09-21 12:19:54,121]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:19:54,121] Step-20: verify pin
+[INFO ] [2021-09-21 12:19:54,197]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:19:54,197] Step-21: verify mobile number
+[INFO ] [2021-09-21 12:19:54,271]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:19:54,271] Step-22: verify mobile number
+[INFO ] [2021-09-21 12:19:54,349]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:19:55,264] Step-01: open new account page
+[INFO ] [2021-09-21 12:19:55,739] Step-02: input to Customer id texbox
+[INFO ] [2021-09-21 12:19:56,484] Step-04: input to Initial deposit text box
+[INFO ] [2021-09-21 12:19:57,229] Step-05: click to submit button
+[INFO ] [2021-09-21 12:19:58,259] Step-06: verify message success 'Account Generated Successfully!!!' displayed
+[INFO ] [2021-09-21 12:19:58,343]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:19:58,343] Step-07: verify text  Current Amount equal initial Deposit
+[INFO ] [2021-09-21 12:19:58,419]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:19:58,419] Step-08: get text account id
+[INFO ] [2021-09-21 12:19:58,503] OS name = windows 10
+[INFO ] [2021-09-21 12:19:59,341] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 12:20:05,830] Step-01: open deposit page
+[INFO ] [2021-09-21 12:20:06,596] Step-02: input to account no textbox with text '97919'
+[INFO ] [2021-09-21 12:20:07,337] Step-03: input to amount textbox with text '7000'
+[INFO ] [2021-09-21 12:20:08,076] Step-04: input to description textbox with text 'deposit'
+[INFO ] [2021-09-21 12:20:08,812] Step-05: click to submit button
+[INFO ] [2021-09-21 12:20:09,535] Step-06: verify message sucessfuly displayed
+[INFO ] [2021-09-21 12:20:09,614]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:20:09,614] Step-07: verify current amount equal 250000
+[INFO ] [2021-09-21 12:20:09,689]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:20:09,696] Step-01: open deposit page
+[INFO ] [2021-09-21 12:20:10,394] Step-02: input to account no textbox with text '97919'
+[INFO ] [2021-09-21 12:20:11,076] Step-03: input to amount textbox with text '7000'
+[INFO ] [2021-09-21 12:20:11,742] Step-04: input to description textbox with text 'withdraw 3000 money'
+[INFO ] [2021-09-21 12:20:12,429] Step-05: click to submit button
+[INFO ] [2021-09-21 12:20:13,739] Step-06: verify message sucessfuly displayed
+[INFO ] [2021-09-21 12:20:13,819]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:20:13,820] Step-07: verify current amount equal 200000
+[INFO ] [2021-09-21 12:20:13,884]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:20:13,893] Step-01: open new account page
+[INFO ] [2021-09-21 12:20:14,407] Step-02: input to Customer id texbox
+[INFO ] [2021-09-21 12:20:15,133] Step-04: input to Initial deposit text box
+[INFO ] [2021-09-21 12:20:15,862] Step-05: click to submit button
+[INFO ] [2021-09-21 12:20:16,905] Step-06: verify message success 'Account Generated Successfully!!!' displayed
+[INFO ] [2021-09-21 12:20:16,977]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:20:16,978] Step-07: verify text  Current Amount equal initial Deposit
+[INFO ] [2021-09-21 12:20:17,055]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:20:17,055] Step-08: get text account id
+[INFO ] [2021-09-21 12:20:17,131] Step-09: open fund transfer page
+[INFO ] [2021-09-21 12:20:17,873] Step-10: input to payer account no textbox 
+[INFO ] [2021-09-21 12:20:18,581] Step-11: input to payee  account no textbox 
+[INFO ] [2021-09-21 12:20:19,346] Step-12: input to description textbox with text 'withdraw 3000 money'
+[INFO ] [2021-09-21 12:20:20,084] Step-13: click to submit button
+[INFO ] [2021-09-21 12:20:20,202] Step-14: verify message sucessfuly displayed
+[INFO ] [2021-09-21 12:20:20,280] Step-01: open Balance Enquiry page
+[INFO ] [2021-09-21 12:20:21,492] Step-02: input to account no textbox
+[INFO ] [2021-09-21 12:20:22,211] Step-03: click to submit button
+[INFO ] [2021-09-21 12:20:23,229] Step-04: get title table and verify 
+[INFO ] [2021-09-21 12:20:23,293]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:20:23,293] Step-05: get title table and verify amount of curren account 
+[INFO ] [2021-09-21 12:20:23,372]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-09-21 12:20:23,379] OS name = windows 10
+[INFO ] [2021-09-21 12:20:24,246] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 12:30:44,194] Step-01: open new customer page
+[INFO ] [2021-09-21 12:30:44,688] Step-02: input to customer name textbox
+[INFO ] [2021-09-21 12:30:45,426] Step-03: click to  gender male radio button
+[INFO ] [2021-09-21 12:30:45,568] Step-04: input to day of birth textbox
+[INFO ] [2021-09-21 12:30:46,277] Step-05: input to address textbox
+[INFO ] [2021-09-21 12:30:47,001] Step-06: input to city textbox
+[INFO ] [2021-09-21 12:30:47,716] Step-07: input to state textbox
+[INFO ] [2021-09-21 12:30:48,460] Step-08: input to pin textbox
+[INFO ] [2021-09-21 12:30:49,221] Step-09: input to mobile number textbox
+[INFO ] [2021-09-21 12:30:49,957] Step-10: input to password textbox
+[INFO ] [2021-09-21 12:30:50,748] Step-11: input to password textbox
+[INFO ] [2021-09-21 12:30:51,492] Step-12: click to submit button
+[INFO ] [2021-09-21 12:30:52,597] Step-13: get Text customer id
+[INFO ] [2021-09-21 12:30:52,671] Step-14: verify text 'Customer Registered Successfully!!!' displayed
+[INFO ] [2021-09-21 12:30:52,753]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:30:52,753] Step-15: verify customer name
+[INFO ] [2021-09-21 12:30:52,847]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:30:52,847] Step-16: verify gender male
+[INFO ] [2021-09-21 12:30:52,942]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:30:52,943] Step-17: verify address
+[INFO ] [2021-09-21 12:30:53,028]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:30:53,028] Step-18: verify city
+[INFO ] [2021-09-21 12:30:53,106]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:30:53,107] Step-19: verify state
+[INFO ] [2021-09-21 12:30:53,185]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:30:53,185] Step-20: verify pin
+[INFO ] [2021-09-21 12:30:53,265]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:30:53,265] Step-21: verify mobile number
+[INFO ] [2021-09-21 12:30:53,340]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:30:53,340] Step-22: verify mobile number
+[INFO ] [2021-09-21 12:30:53,438]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:30:54,350] Step-01: open new account page
+[INFO ] [2021-09-21 12:30:54,812] Step-02: input to Customer id texbox
+[INFO ] [2021-09-21 12:30:55,555] Step-04: input to Initial deposit text box
+[INFO ] [2021-09-21 12:30:56,323] Step-05: click to submit button
+[INFO ] [2021-09-21 12:30:57,398] Step-06: verify message success 'Account Generated Successfully!!!' displayed
+[INFO ] [2021-09-21 12:30:57,475]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:30:57,475] Step-07: verify text  Current Amount equal initial Deposit
+[INFO ] [2021-09-21 12:30:57,552]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:30:57,553] Step-08: get text account id
+[INFO ] [2021-09-21 12:30:57,653] OS name = windows 10
+[INFO ] [2021-09-21 12:30:58,492] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-09-21 12:31:05,165] Step-01: open deposit page
+[INFO ] [2021-09-21 12:31:05,900] Step-02: input to account no textbox with text '97919'
+[INFO ] [2021-09-21 12:31:06,603] Step-03: input to amount textbox with text '7000'
+[INFO ] [2021-09-21 12:31:07,344] Step-04: input to description textbox with text 'deposit'
+[INFO ] [2021-09-21 12:31:08,052] Step-05: click to submit button
+[INFO ] [2021-09-21 12:31:08,889] Step-06: verify message sucessfuly displayed
+[INFO ] [2021-09-21 12:31:08,975]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:31:08,975] Step-07: verify current amount equal 250000
+[INFO ] [2021-09-21 12:31:09,053]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:31:09,060] Step-01: open deposit page
+[INFO ] [2021-09-21 12:31:09,745] Step-02: input to account no textbox with text '97919'
+[INFO ] [2021-09-21 12:31:10,434] Step-03: input to amount textbox with text '7000'
+[INFO ] [2021-09-21 12:31:11,103] Step-04: input to description textbox with text 'withdraw 3000 money'
+[INFO ] [2021-09-21 12:31:11,791] Step-05: click to submit button
+[INFO ] [2021-09-21 12:31:12,988] Step-06: verify message sucessfuly displayed
+[INFO ] [2021-09-21 12:31:13,059]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:31:13,059] Step-07: verify current amount equal 200000
+[INFO ] [2021-09-21 12:31:13,123]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:31:13,131] Step-01: open new account page
+[INFO ] [2021-09-21 12:31:13,593] Step-02: input to Customer id texbox
+[INFO ] [2021-09-21 12:31:14,288] Step-04: input to Initial deposit text box
+[INFO ] [2021-09-21 12:31:15,035] Step-05: click to submit button
+[INFO ] [2021-09-21 12:31:16,118] Step-06: verify message success 'Account Generated Successfully!!!' displayed
+[INFO ] [2021-09-21 12:31:16,192]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:31:16,192] Step-07: verify text  Current Amount equal initial Deposit
+[INFO ] [2021-09-21 12:31:16,269]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:31:16,270] Step-08: get text account id
+[INFO ] [2021-09-21 12:31:16,352] Step-09: open fund transfer page
+[INFO ] [2021-09-21 12:31:17,084] Step-10: input to payer account no textbox 
+[INFO ] [2021-09-21 12:31:17,834] Step-11: input to payee  account no textbox 
+[INFO ] [2021-09-21 12:31:18,586] Step-12: input to description textbox with text 'withdraw 3000 money'
+[INFO ] [2021-09-21 12:31:19,337] Step-12: input to description textbox with text 'withdraw 3000 money'
+[INFO ] [2021-09-21 12:31:20,091] Step-13: click to submit button
+[INFO ] [2021-09-21 12:31:21,069] Step-14: verify message sucessfuly displayed
+[INFO ] [2021-09-21 12:31:21,138]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:31:21,138] Step-15: verify  amount  equal 50000
+[INFO ] [2021-09-21 12:31:21,214]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:31:21,222] Step-01: open Balance Enquiry page
+[INFO ] [2021-09-21 12:31:21,956] Step-02: input to account no textbox
+[INFO ] [2021-09-21 12:31:22,706] Step-03: click to submit button
+[INFO ] [2021-09-21 12:31:23,763] Step-04: get title table and verify 
+[INFO ] [2021-09-21 12:31:23,835]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:31:23,835] Step-05: get title table and verify amount of curren account 
+[INFO ] [2021-09-21 12:31:23,915]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-21 12:31:23,919] OS name = windows 10
+[INFO ] [2021-09-21 12:31:24,789] ---------- QUIT BROWSER SUCCESS ----------

@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pageObjectUser.PageGenerator;
+import pageObjectUser.UserBalancePagePO;
 import pageObjectUser.UserChangePasswordPagePO;
 import pageObjectUser.UserCustomisedStatementPagePO;
 import pageObjectUser.UserDeleteAccountPagePO;
@@ -26,6 +27,7 @@ import pageObjectUser.UserFundTransferPagePO;
 import pageObjectUser.UserMiniStatementPagePO;
 import pageObjectUser.UserNewAccountPagePO;
 import pageObjectUser.UserNewCustomerPagePO;
+import pageObjectUser.UserWithdrawPagePO;
 import pageUIUser.AbtractPageUI;
 public class AbtractPage {
 ///
@@ -416,8 +418,16 @@ public class AbtractPage {
 		clickToElement(driver, AbtractPageUI.DEPOSIT_LINK);
 		return PageGenerator.getDepositPage(driver);
 	}
-
-	
+	public UserWithdrawPagePO openWithdrawPage(WebDriver driver) {
+		waitToElementClickable(driver, AbtractPageUI.WITHDRAW_LINK);
+		clickToElement(driver, AbtractPageUI.WITHDRAW_LINK);
+		return PageGenerator.getWithdrawPage(driver);
+	}
+	public UserBalancePagePO openBalanceEnquiry(WebDriver driver) {
+		waitToElementClickable(driver, AbtractPageUI.BALANCE_ENQUIRE_LINK);
+		clickToElement(driver, AbtractPageUI.BALANCE_ENQUIRE_LINK);
+		return PageGenerator.getBalanceEnquiryPage(driver);
+	}
 	
 	private WebDriverWait explicit;
 	private JavascriptExecutor js;

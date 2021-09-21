@@ -43,4 +43,10 @@ public class PageGenerator {
 	public static UserDepositPagePO getDepositPage(WebDriver driver) {
 		return new UserDepositPagePO(driver);
 	}
+	public static UserWithdrawPagePO getWithdrawPage(WebDriver driver) {
+		return new UserWithdrawPagePO(driver);
+	}
+	public static UserBalancePagePO getBalanceEnquiryPage(WebDriver driver) {
+		return new UserBalancePagePO(driver);
+	}
 }

@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import commons.AbtractPage;
 import pageUIUser.UserChangePasswordPageUI;
 import pageUIUser.UserFundTransferPageUI;
+import pageUIUser.UserWithdrawPageUI;
 
 public class UserFundTransferPagePO extends AbtractPage{
 	WebDriver driver;
@@ -42,8 +43,10 @@ public class UserFundTransferPagePO extends AbtractPage{
 	
 	}
 	public void inputToAmountTextbox(String amount) {
+		
 		waitToElementVisible(driver, UserFundTransferPageUI.AMOUNT_TEXTBOX);
 		senkeyToElement(driver, UserFundTransferPageUI.AMOUNT_TEXTBOX,amount);
+	
 	}
 
 	public String getErrorMessageOfAmount() {
@@ -51,6 +54,30 @@ public class UserFundTransferPagePO extends AbtractPage{
 		return getTextElement(driver, UserFundTransferPageUI.ERROR_MESSAGE_OF_AMOUNT_VERIFY);
 	
 	}
+	public void clickToSubmitButton() {
+		waitToElementClickable(driver, UserFundTransferPageUI.SUBMIT_BUTTON);
+		clickToElement(driver, UserFundTransferPageUI.SUBMIT_BUTTON);
+	}
+
+	public String getTextTitlePage() {
+		waitToElementVisible(driver, UserFundTransferPageUI.TEXT_TITEl_TABLE);
+		return getTextElement(driver, UserFundTransferPageUI.TEXT_TITEl_TABLE);
+	}
+
+	public String getTextAmount() {
+		waitToElementVisible(driver, UserFundTransferPageUI.TEXT_CURRENT_AMOUNT);
+		return getTextElement(driver, UserFundTransferPageUI.TEXT_CURRENT_AMOUNT);
+	}
+
+	public void inputToDescriptionTextbox(String string) {
+		
+		waitToElementVisible(driver, UserFundTransferPageUI.DESCRIPTION_TEXTBOX);
+		senkeyToElement(driver, UserFundTransferPageUI.DESCRIPTION_TEXTBOX,string);
+		
+	}
+
+	
+
 
 	
 }
