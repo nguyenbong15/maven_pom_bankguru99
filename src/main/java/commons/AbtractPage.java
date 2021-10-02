@@ -56,6 +56,7 @@ public class AbtractPage {
 	}
 	
 	public void accepAlert(WebDriver driver){
+		waitAlertPresence(driver);
 		driver.switchTo().alert().accept();
 	}
 	public void cancelccepAlert(WebDriver driver){

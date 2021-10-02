@@ -12,8 +12,9 @@
 		<parameter name="url" value="http://demo.guru99.com/v4/" />
 		<classes>
 		<!-- 	<class name="com.bankguru.commons.Common_01_Login_Page" /> -->
-			<class name="com.bankguru.users.User_12_Payment_01_Create_And_Edit_Customer_And_Account" />
-			<class name="com.bankguru.users.User_13_Payment_02_Transfer_Money" />
+			<class name="com.bankguru.payment.User_01_Payment_01_Create_And_Edit_Customer_And_Account"/>
+			<class name="com.bankguru.payment.User_02_Payment_02_Transfer_Money" />
+			<class name="com.bankguru.payment.User_03_Payment_03_Delete_Account_And_Customer" />
 		</classes>
 
 	</test>

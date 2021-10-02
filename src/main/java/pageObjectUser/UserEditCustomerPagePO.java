@@ -26,10 +26,7 @@ public class UserEditCustomerPagePO extends AbtractPage{
 	
 	}
 
-	public void clickToSubmitButton() {
-		waitToElementClickable(driver, UserEditCustomerPageUI.SUBMIT_BUTTON);
-		clickToElement(driver,  UserEditCustomerPageUI.SUBMIT_BUTTON);
-	}
+	
 	public void pressTabKey() {
 		waitToElementVisible(driver, UserEditCustomerPageUI.CUSTOMER_ID_TEXTBOX);
 		senkeyToElement(driver, UserEditCustomerPageUI.CUSTOMER_ID_TEXTBOX,Keys.TAB);
@@ -154,31 +151,33 @@ public class UserEditCustomerPagePO extends AbtractPage{
 	}
 
 	public String getTextState() {
-		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_STATE);
-		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_STATE);
+		waitToElementVisible(driver, UserEditCustomerPageUI.GET_TEXT_STATE);
+		return getTextElement(driver, UserEditCustomerPageUI.GET_TEXT_STATE);
 	
 	}
 
 	public String getTextPhoneNumber() {
-		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_MOBILE_NUMBER);
-		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_MOBILE_NUMBER);
+		waitToElementVisible(driver, UserEditCustomerPageUI.GET_TEXT_MOBILE_NUMBER);
+		return getTextElement(driver, UserEditCustomerPageUI.GET_TEXT_MOBILE_NUMBER);
 	
 	}
 
 	public String getTextPin() {
-		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_PIN);
-		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_PIN);
+		waitToElementVisible(driver, UserEditCustomerPageUI.GET_TEXT_PIN);
+		return getTextElement(driver, UserEditCustomerPageUI.GET_TEXT_PIN);
 	
 	}
 
 	public String getTextEmail() {
-		waitToElementVisible(driver, UserNewCustomerPageUI.GET_TEXT_EMAIL);
-		return getTextElement(driver, UserNewCustomerPageUI.GET_TEXT_EMAIL);
+		waitToElementVisible(driver, UserEditCustomerPageUI.GET_TEXT_EMAIL);
+		return getTextElement(driver, UserEditCustomerPageUI.GET_TEXT_EMAIL);
 	
 	}
 
 	public void clickToSubmitbutton() {
-		waitToElementClickable(driver, UserNewCustomerPageUI.SUBMIT_BUTTON);
-		clickToElement(driver, UserNewCustomerPageUI.SUBMIT_BUTTON);
+		waitToElementClickable(driver, UserEditCustomerPageUI.SUBMIT_BUTTON);
+		clickToElement(driver, UserEditCustomerPageUI.SUBMIT_BUTTON);
 	}
+
+	
 }
